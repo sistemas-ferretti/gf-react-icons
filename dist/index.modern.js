@@ -54,7 +54,7 @@ class IconStairsOutlined extends React.Component {
   }
 }
 
-class IconFerrettioutlined extends React.Component {
+class IconFerrettiOutlined extends React.Component {
   render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
@@ -78,5 +78,5 @@ class IconStairsGradient extends React.Component {
   }
 }
 
-export { IconAccountStateOutlined, IconConfirmacionPago, IconContactFormOutlined, IconFerrettioutlined, IconMoonOtlined, IconStairsGradient, IconStairsOutlined, IconSunOtlined };
+export { IconAccountStateOutlined, IconConfirmacionPago, IconContactFormOutlined, IconFerrettiOutlined, IconMoonOtlined, IconStairsGradient, IconStairsOutlined, IconSunOtlined };
 //# sourceMappingURL=index.modern.js.map

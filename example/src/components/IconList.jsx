@@ -29,9 +29,9 @@ const IconList = ({ searchWord }) => {
   return (
     <div className='px-4 px-lg-5'>
       <h1>Lista de Iconos</h1>
-      <div className='row my-5 justify-content-between'>
+      <ul className='my-4 gf-icon-list'>
         {filteredIcons.map((icon, index) => (
-          <div className='col-6 col-md-4 col-lg-2 text-center p-2' 
+          <li className='text-center p-2' 
             key={index}
             onClick={() => copyIcon(icon.name)}
           >
@@ -45,14 +45,18 @@ const IconList = ({ searchWord }) => {
               >
                 {React.createElement(icon.component)}
               </div>
-              <p>
+              <p
+                style={{
+                  fontSize: '14px',
+                }}
+              >
                 {icon.name}
               </p>
 
             </div>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

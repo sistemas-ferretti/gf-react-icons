@@ -17,8 +17,6 @@
   }
 
   .gf-icon-container {
-  width: 100%;
-  max-width: 146px;
   word-wrap: break-word;
   border-radius: 7px;
   height: 100%;
@@ -26,6 +24,19 @@
   transition: all 0.3s ease;
 }
 
+.gf-icon-list{
+  list-style: none;
+  direction: ltr;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+ul.gf-icon-list li {
+  position: relative;
+  float: left;
+  height: 140px;
+  width: 16.66%;
+}
 
 .gf-icon-container:hover {
   background-color: #007bff;

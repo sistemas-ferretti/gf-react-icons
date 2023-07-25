@@ -105,19 +105,19 @@ var IconStairsOutlined = /*#__PURE__*/function (_React$Component) {
   return IconStairsOutlined;
 }(React.Component);
 
-var IconFerrettioutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconFerrettioutlined, _React$Component);
-  function IconFerrettioutlined() {
+var IconFerrettiOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFerrettiOutlined, _React$Component);
+  function IconFerrettiOutlined() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconFerrettioutlined.prototype;
+  var _proto = IconFerrettiOutlined.prototype;
   _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-ferrettioutlined"
     });
   };
-  return IconFerrettioutlined;
+  return IconFerrettiOutlined;
 }(React.Component);
 
 var IconStairsGradient = /*#__PURE__*/function (_React$Component) {
@@ -144,7 +144,7 @@ var IconStairsGradient = /*#__PURE__*/function (_React$Component) {
 exports.IconAccountStateOutlined = IconAccountStateOutlined;
 exports.IconConfirmacionPago = IconConfirmacionPago;
 exports.IconContactFormOutlined = IconContactFormOutlined;
-exports.IconFerrettioutlined = IconFerrettioutlined;
+exports.IconFerrettiOutlined = IconFerrettiOutlined;
 exports.IconMoonOtlined = IconMoonOtlined;
 exports.IconStairsGradient = IconStairsGradient;
 exports.IconStairsOutlined = IconStairsOutlined;
