@@ -1,0 +1,40 @@
+#main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+  }
+
+
+#main[theme ='dark']{
+    background-color: #2b2a33;
+}
+
+.form-control[theme ='dark']::placeholder {
+    color: white; /* Cambia el color del texto del placeholder a rojo */
+  }
+
+  .gf-icon-container {
+  width: 100%;
+  max-width: 146px;
+  word-wrap: break-word;
+  border-radius: 7px;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.gf-icon-container:hover {
+  background-color: #007bff;
+}
+
+.gf-icon{
+  transition: all 0.3s ease-in-out;
+}
+
+.gf-icon-container:hover > .gf-icon {
+  transform: scale(1.1);
+}
