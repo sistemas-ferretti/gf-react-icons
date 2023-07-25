@@ -111,9 +111,25 @@ var IconStairsOutlined = /*#__PURE__*/function (_React$Component) {
   return IconStairsOutlined;
 }(React.Component);
 
+var IconFerrettioutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFerrettioutlined, _React$Component);
+  function IconFerrettioutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFerrettioutlined.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-ferrettioutlined"
+    });
+  };
+  return IconFerrettioutlined;
+}(React.Component);
+
 exports.IconAccountStateOutlined = IconAccountStateOutlined;
 exports.IconConfirmacionPago = IconConfirmacionPago;
 exports.IconContactFormOutlined = IconContactFormOutlined;
+exports.IconFerrettioutlined = IconFerrettioutlined;
 exports.IconMoonOtlined = IconMoonOtlined;
 exports.IconStairsOutlined = IconStairsOutlined;
 exports.IconSunOtlined = IconSunOtlined;
