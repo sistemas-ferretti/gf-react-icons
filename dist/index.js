@@ -99,13 +99,7 @@ var IconStairsOutlined = /*#__PURE__*/function (_React$Component) {
   _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      style: {
-        background: 'linear-gradient(0deg, rgba(36,173,255,1) 14%, rgba(45,56,253,1) 82%)',
-        backgroundClip: 'text',
-        WebkitBackgroundClip: 'text',
-        color: 'transparent'
-      },
-      className: "icon-stairsoutlined p-1"
+      className: "icon-stairsoutlined"
     });
   };
   return IconStairsOutlined;
@@ -126,11 +120,33 @@ var IconFerrettioutlined = /*#__PURE__*/function (_React$Component) {
   return IconFerrettioutlined;
 }(React.Component);
 
+var IconStairsGradient = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconStairsGradient, _React$Component);
+  function IconStairsGradient() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconStairsGradient.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      style: {
+        background: 'linear-gradient(0deg, rgba(36,173,255,1) 14%, rgba(45,56,253,1) 82%)',
+        backgroundClip: 'text',
+        WebkitBackgroundClip: 'text',
+        color: 'transparent'
+      },
+      className: "icon-stairsoutlined p-1"
+    });
+  };
+  return IconStairsGradient;
+}(React.Component);
+
 exports.IconAccountStateOutlined = IconAccountStateOutlined;
 exports.IconConfirmacionPago = IconConfirmacionPago;
 exports.IconContactFormOutlined = IconContactFormOutlined;
 exports.IconFerrettioutlined = IconFerrettioutlined;
 exports.IconMoonOtlined = IconMoonOtlined;
+exports.IconStairsGradient = IconStairsGradient;
 exports.IconStairsOutlined = IconStairsOutlined;
 exports.IconSunOtlined = IconSunOtlined;
 //# sourceMappingURL=index.js.map
