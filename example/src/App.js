@@ -5,6 +5,7 @@ import Customizer from './components/Customizer';
 import Buscador from './components/Buscador';
 import IconList from './components/IconList';
 import { ToastContainer } from 'react-toastify';
+import {IconConfirmacionPago} from 'gf-react-icons';
 
 export default function App() {
 
