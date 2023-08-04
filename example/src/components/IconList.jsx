@@ -4,6 +4,7 @@ import {  toast } from 'react-toastify';
 
 const IconList = ({ searchWord }) => {
   const iconsArray = Object.entries(Icons);
+  console.log(iconsArray);
   const iconsList = iconsArray.map(([name, component]) => ({ name, component }));
 
   const filteredIcons = useMemo(() => {
@@ -31,7 +32,7 @@ const IconList = ({ searchWord }) => {
       <h1>Lista de Iconos</h1>
       <ul className='my-4 gf-icon-list'>
         {filteredIcons.map((icon, index) => (
-          <li className='text-center p-2' 
+          <li className='text-center p-2'
             key={index}
             onClick={() => copyIcon(icon.name)}
           >
