@@ -1,70 +1,130 @@
 import React from 'react';
 
-class IconAccountStateOutlined extends React.Component {
-  render() {
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  _setPrototypeOf(subClass, superClass);
+}
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+  return _setPrototypeOf(o, p);
+}
+
+var IconAccountStateOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAccountStateOutlined, _React$Component);
+  function IconAccountStateOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAccountStateOutlined.prototype;
+  _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconaccountstateoutlined"
     });
-  }
-}
+  };
+  return IconAccountStateOutlined;
+}(React.Component);
 
-class IconContactFormOutlined extends React.Component {
-  render() {
+var IconContactFormOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContactFormOutlined, _React$Component);
+  function IconContactFormOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContactFormOutlined.prototype;
+  _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcontactformoutlined"
     });
-  }
-}
+  };
+  return IconContactFormOutlined;
+}(React.Component);
 
-class IconConfirmacionPago extends React.Component {
-  render() {
+var IconConfirmacionPago = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionPago, _React$Component);
+  function IconConfirmacionPago() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconConfirmacionPago.prototype;
+  _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconconfirmacionpago"
     });
-  }
-}
+  };
+  return IconConfirmacionPago;
+}(React.Component);
 
-class IconSunOtlined extends React.Component {
-  render() {
+var IconSunOtlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSunOtlined, _React$Component);
+  function IconSunOtlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSunOtlined.prototype;
+  _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-sun-o"
     });
-  }
-}
+  };
+  return IconSunOtlined;
+}(React.Component);
 
-class IconMoonOtlined extends React.Component {
-  render() {
+var IconMoonOtlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMoonOtlined, _React$Component);
+  function IconMoonOtlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMoonOtlined.prototype;
+  _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-moon-o"
     });
-  }
-}
+  };
+  return IconMoonOtlined;
+}(React.Component);
 
-class IconStairsOutlined extends React.Component {
-  render() {
+var IconStairsOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconStairsOutlined, _React$Component);
+  function IconStairsOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconStairsOutlined.prototype;
+  _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-stairsoutlined"
     });
-  }
-}
+  };
+  return IconStairsOutlined;
+}(React.Component);
 
-class IconFerrettiOutlined extends React.Component {
-  render() {
+var IconFerrettiOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFerrettiOutlined, _React$Component);
+  function IconFerrettiOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFerrettiOutlined.prototype;
+  _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-ferrettioutlined"
     });
-  }
-}
+  };
+  return IconFerrettiOutlined;
+}(React.Component);
 
-class IconStairsGradient extends React.Component {
-  render() {
+var IconStairsGradient = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconStairsGradient, _React$Component);
+  function IconStairsGradient() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconStairsGradient.prototype;
+  _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       style: {
@@ -75,8 +135,9 @@ class IconStairsGradient extends React.Component {
       },
       className: "icon-stairsoutlined p-1"
     });
-  }
-}
+  };
+  return IconStairsGradient;
+}(React.Component);
 
 export { IconAccountStateOutlined, IconConfirmacionPago, IconContactFormOutlined, IconFerrettiOutlined, IconMoonOtlined, IconStairsGradient, IconStairsOutlined, IconSunOtlined };
 //# sourceMappingURL=index.modern.js.map
