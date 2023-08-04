@@ -137,27 +137,30 @@
 .icon-iconbetterpriceoutlined:before {
   content: "\67";
 }
-.icon-iconarquitecto:before {
-  content: "\68";
-}
 .icon-iconarchivooutlined:before {
   content: "\69";
-}
-.icon-iconaprobacion:before {
-  content: "\6a";
 }
 .icon-iconaccountstateoutlined:before {
   content: "\6b";
 }
-.icon-moon-o:before {
+.icon-iconarquitecto:before {
+  content: "\68";
+}
+.icon-iconaprobacion:before {
+  content: "\6a";
+}
+.icon-iconheartoutlined:before {
+  content: "\50";
+}
+.icon-iconferrettioutlined:before {
+  content: "\4f";
+}
+.icon-escalerabyn:before {
   content: "\4c";
 }
-.icon-sun-o:before {
-  content: "\4d";
-}
-.icon-stairsoutlined:before {
+.icon-iconmoon:before {
   content: "\4e";
 }
-.icon-ferrettioutlined:before {
-  content: "\4f";
+.icon-iconsun:before {
+  content: "\4d";
 }

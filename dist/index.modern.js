@@ -43,64 +43,19 @@ var IconContactFormOutlined = /*#__PURE__*/function (_React$Component) {
   return IconContactFormOutlined;
 }(React.Component);
 
-var IconConfirmacionPago = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconConfirmacionPago, _React$Component);
-  function IconConfirmacionPago() {
+var IconConfirmacionPagoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionPagoOutlined, _React$Component);
+  function IconConfirmacionPagoOutlined() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconConfirmacionPago.prototype;
+  var _proto = IconConfirmacionPagoOutlined.prototype;
   _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconconfirmacionpago"
     });
   };
-  return IconConfirmacionPago;
-}(React.Component);
-
-var IconSunOtlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconSunOtlined, _React$Component);
-  function IconSunOtlined() {
-    return _React$Component.apply(this, arguments) || this;
-  }
-  var _proto = IconSunOtlined.prototype;
-  _proto.render = function render() {
-    return /*#__PURE__*/React.createElement("i", {
-      "aria-hidden": "true",
-      className: "icon-sun-o"
-    });
-  };
-  return IconSunOtlined;
-}(React.Component);
-
-var IconMoonOtlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconMoonOtlined, _React$Component);
-  function IconMoonOtlined() {
-    return _React$Component.apply(this, arguments) || this;
-  }
-  var _proto = IconMoonOtlined.prototype;
-  _proto.render = function render() {
-    return /*#__PURE__*/React.createElement("i", {
-      "aria-hidden": "true",
-      className: "icon-moon-o"
-    });
-  };
-  return IconMoonOtlined;
-}(React.Component);
-
-var IconStairsOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconStairsOutlined, _React$Component);
-  function IconStairsOutlined() {
-    return _React$Component.apply(this, arguments) || this;
-  }
-  var _proto = IconStairsOutlined.prototype;
-  _proto.render = function render() {
-    return /*#__PURE__*/React.createElement("i", {
-      "aria-hidden": "true",
-      className: "icon-stairsoutlined"
-    });
-  };
-  return IconStairsOutlined;
+  return IconConfirmacionPagoOutlined;
 }(React.Component);
 
 var IconFerrettiOutlined = /*#__PURE__*/function (_React$Component) {
@@ -112,32 +67,56 @@ var IconFerrettiOutlined = /*#__PURE__*/function (_React$Component) {
   _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-ferrettioutlined"
+      className: "icon-iconferrettioutlined"
     });
   };
   return IconFerrettiOutlined;
 }(React.Component);
 
-var IconStairsGradient = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconStairsGradient, _React$Component);
-  function IconStairsGradient() {
+var IconHeartOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconHeartOutlined, _React$Component);
+  function IconHeartOutlined() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconStairsGradient.prototype;
+  var _proto = IconHeartOutlined.prototype;
   _proto.render = function render() {
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      style: {
-        background: 'linear-gradient(0deg, rgba(36,173,255,1) 14%, rgba(45,56,253,1) 82%)',
-        backgroundClip: 'text',
-        WebkitBackgroundClip: 'text',
-        color: 'transparent'
-      },
-      className: "icon-stairsoutlined p-1"
+      className: "icon-iconheartoutlined"
     });
   };
-  return IconStairsGradient;
+  return IconHeartOutlined;
 }(React.Component);
 
-export { IconAccountStateOutlined, IconConfirmacionPago, IconContactFormOutlined, IconFerrettiOutlined, IconMoonOtlined, IconStairsGradient, IconStairsOutlined, IconSunOtlined };
+var IconMoonOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMoonOutlined, _React$Component);
+  function IconMoonOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMoonOutlined.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconmoon"
+    });
+  };
+  return IconMoonOutlined;
+}(React.Component);
+
+var IconSunOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSunOutlined, _React$Component);
+  function IconSunOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSunOutlined.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconsun"
+    });
+  };
+  return IconSunOutlined;
+}(React.Component);
+
+export { IconAccountStateOutlined, IconConfirmacionPagoOutlined, IconContactFormOutlined, IconFerrettiOutlined, IconHeartOutlined, IconMoonOutlined, IconSunOutlined };
 //# sourceMappingURL=index.modern.js.map

@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconMoonOtlined, IconSunOtlined } from 'gf-react-icons'
+import { IconMoonOutlined, IconSunOutlined } from 'gf-react-icons'
 
 const Customizer = ({ changeTheme, theme }) => {
 
@@ -20,7 +20,7 @@ const Customizer = ({ changeTheme, theme }) => {
             }}
             onClick={() => changeTheme()}>
             {
-                theme === 'light' ? <IconMoonOtlined /> : <IconSunOtlined />
+                theme === 'light' ? <IconMoonOutlined /> : <IconSunOutlined />
             }
         </div>
     )
