@@ -1,0 +1,10 @@
+example/
+DockerFile
+.dockerignore
+.editorconfig
+.eslintignore
+.eslintrc
+.prettierrc
+.travis.yml
+.package-lock.json
+yarn.lock
