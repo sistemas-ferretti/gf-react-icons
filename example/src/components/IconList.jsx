@@ -1,9 +1,11 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import * as Icons from 'gf-react-icons';
 import {  toast } from 'react-toastify';
 
 const IconList = ({ searchWord }) => {
+  const [isShowName, setIsShowName] = useState(true);
   const iconsArray = Object.entries(Icons);
+  let timeoutId;
 
   const iconsList = iconsArray.map(([name, component]) => ({ name, component }));
 
@@ -27,9 +29,27 @@ const IconList = ({ searchWord }) => {
     toast.success(`Copiado: <${iconName}/>`);
   }
 
-  // const ocultarName = () => {
+  const ocultarName = () => {
+    const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
-  // }
+    if (viewportWidth < 600) {
+      setIsShowName(false);
+    } else {
+      setIsShowName(true);
+    }
+  };
+
+  const handleResize = () => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(ocultarName, 300);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div className='px-4 px-lg-5'>
@@ -53,10 +73,9 @@ const IconList = ({ searchWord }) => {
               <p
                 style={{
                   fontSize: '14px',
-                  textOverflow: "ellipsis",
                 }}
               >
-                {icon.name}
+                {isShowName ? icon.name : ""}
               </p>
 
             </div>
