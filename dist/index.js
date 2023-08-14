@@ -22,11 +22,11 @@ var IconAccountStateOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconAccountStateOutlined.prototype;
   _proto.render = function render() {
-    var styles = this.props.styles;
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconaccountstateoutlined",
-      style: styles
+      style: style
     });
   };
   return IconAccountStateOutlined;
@@ -39,9 +39,11 @@ var IconAprobacion = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconAprobacion.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconaprobacion"
+      className: "icon-iconaprobacion",
+      style: style
     });
   };
   return IconAprobacion;
@@ -54,9 +56,11 @@ var IconArchivoOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconArchivoOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconarchivooutlined"
+      className: "icon-iconarchivooutlined",
+      style: style
     });
   };
   return IconArchivoOutlined;
@@ -69,9 +73,11 @@ var IconArquitecto = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconArquitecto.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconarquitecto"
+      className: "icon-iconarquitecto",
+      style: style
     });
   };
   return IconArquitecto;
@@ -84,9 +90,11 @@ var IconBetterPriceOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconBetterPriceOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconbetterpriceoutlined"
+      className: "icon-iconbetterpriceoutlined",
+      style: style
     });
   };
   return IconBetterPriceOutlined;
@@ -99,9 +107,11 @@ var IconCalendarOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconCalendarOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconcalendaroutlined"
+      className: "icon-iconcalendaroutlined",
+      style: style
     });
   };
   return IconCalendarOutlined;
@@ -114,9 +124,11 @@ var IconCalendarTimeOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconCalendarTimeOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconcalendartimeoutlined"
+      className: "icon-iconcalendartimeoutlined",
+      style: style
     });
   };
   return IconCalendarTimeOutlined;
@@ -129,9 +141,11 @@ var IconCheckDeliveryOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconCheckDeliveryOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconcheckdeliveryoutlined"
+      className: "icon-iconcheckdeliveryoutlined",
+      style: style
     });
   };
   return IconCheckDeliveryOutlined;
@@ -144,9 +158,11 @@ var IconCheckListTimeOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconCheckListTimeOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconchecklisttimeoutlined"
+      className: "icon-iconchecklisttimeoutlined",
+      style: style
     });
   };
   return IconCheckListTimeOutlined;
@@ -159,9 +175,11 @@ var IconClockOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconClockOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconclockoutlined"
+      className: "icon-iconclockoutlined",
+      style: style
     });
   };
   return IconClockOutlined;
@@ -174,9 +192,11 @@ var IconConfirmacion = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconConfirmacion.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconconfirmacion"
+      className: "icon-iconconfirmacion",
+      style: style
     });
   };
   return IconConfirmacion;
@@ -189,9 +209,11 @@ var IconConfirmacionPagoOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconConfirmacionPagoOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconconfirmacionpago"
+      className: "icon-iconconfirmacionpago",
+      style: style
     });
   };
   return IconConfirmacionPagoOutlined;
@@ -204,9 +226,11 @@ var IconContactFormOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconContactFormOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconcontactformoutlined"
+      className: "icon-iconcontactformoutlined",
+      style: style
     });
   };
   return IconContactFormOutlined;
@@ -219,9 +243,11 @@ var IconDetailOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconDetailOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-icondetailoutlined"
+      className: "icon-icondetailoutlined",
+      style: style
     });
   };
   return IconDetailOutlined;
@@ -234,9 +260,11 @@ var IconDocumento = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconDocumento.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-icondocumento"
+      className: "icon-icondocumento",
+      style: style
     });
   };
   return IconDocumento;
@@ -249,9 +277,11 @@ var IconEscaleraByn = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconEscaleraByn.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-escalerabyn"
+      className: "icon-escalerabyn",
+      style: style
     });
   };
   return IconEscaleraByn;
@@ -264,9 +294,11 @@ var IconExito = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconExito.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconexito"
+      className: "icon-iconexito",
+      style: style
     });
   };
   return IconExito;
@@ -279,9 +311,11 @@ var IconFerrettiOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFerrettiOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconferrettioutlined"
+      className: "icon-iconferrettioutlined",
+      style: style
     });
   };
   return IconFerrettiOutlined;
@@ -294,9 +328,11 @@ var IconFilePdfOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFilePdfOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconfilepdfoutlined"
+      className: "icon-iconfilepdfoutlined",
+      style: style
     });
   };
   return IconFilePdfOutlined;
@@ -309,9 +345,11 @@ var IconFomInOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFomInOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconforminoutlined"
+      className: "icon-iconforminoutlined",
+      style: style
     });
   };
   return IconFomInOutlined;
@@ -324,9 +362,11 @@ var IconFormOutOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFormOutOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconformoutoutlined"
+      className: "icon-iconformoutoutlined",
+      style: style
     });
   };
   return IconFormOutOutlined;
@@ -339,9 +379,11 @@ var IconHeartOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconHeartOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconheartoutlined"
+      className: "icon-iconheartoutlined",
+      style: style
     });
   };
   return IconHeartOutlined;
@@ -354,9 +396,11 @@ var IconHomeOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconHomeOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconhomeoutlined"
+      className: "icon-iconhomeoutlined",
+      style: style
     });
   };
   return IconHomeOutlined;
@@ -369,9 +413,11 @@ var IconImpuesto = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconImpuesto.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconimpuesto"
+      className: "icon-iconimpuesto",
+      style: style
     });
   };
   return IconImpuesto;
@@ -384,9 +430,11 @@ var IconLandColorOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconLandColorOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconlandcoloroutlined"
+      className: "icon-iconlandcoloroutlined",
+      style: style
     });
   };
   return IconLandColorOutlined;
@@ -399,9 +447,11 @@ var IconLiberacion = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconLiberacion.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconliberacion"
+      className: "icon-iconliberacion",
+      style: style
     });
   };
   return IconLiberacion;
@@ -414,11 +464,11 @@ var IconMoonOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconMoonOutlined.prototype;
   _proto.render = function render() {
-    var styles = this.props.styles;
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmoon",
-      style: styles
+      style: style
     });
   };
   return IconMoonOutlined;
@@ -431,9 +481,11 @@ var IconOrdersOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconOrdersOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconordersoutlined"
+      className: "icon-iconordersoutlined",
+      style: style
     });
   };
   return IconOrdersOutlined;
@@ -446,9 +498,11 @@ var IconPayCardOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconPayCardOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconpaycardoutlined"
+      className: "icon-iconpaycardoutlined",
+      style: style
     });
   };
   return IconPayCardOutlined;
@@ -461,9 +515,11 @@ var IconPayOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconPayOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconpayoutlined"
+      className: "icon-iconpayoutlined",
+      style: style
     });
   };
   return IconPayOutlined;
@@ -476,9 +532,11 @@ var IconPayPhoneOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconPayPhoneOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconpayphoneoutlined"
+      className: "icon-iconpayphoneoutlined",
+      style: style
     });
   };
   return IconPayPhoneOutlined;
@@ -491,9 +549,11 @@ var IconPreFormOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconPreFormOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconpreformoutlined"
+      className: "icon-iconpreformoutlined",
+      style: style
     });
   };
   return IconPreFormOutlined;
@@ -506,9 +566,11 @@ var IconRevision = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconRevision.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconrevision"
+      className: "icon-iconrevision",
+      style: style
     });
   };
   return IconRevision;
@@ -521,9 +583,11 @@ var IconSaveMoneyOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconSaveMoneyOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconsavemoneyoutlined"
+      className: "icon-iconsavemoneyoutlined",
+      style: style
     });
   };
   return IconSaveMoneyOutlined;
@@ -536,9 +600,11 @@ var IconShoppingCarOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconShoppingCarOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconshopping-caroutlined"
+      className: "icon-iconshopping-caroutlined",
+      style: style
     });
   };
   return IconShoppingCarOutlined;
@@ -551,9 +617,11 @@ var IconSiteDeliveryOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconSiteDeliveryOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconsitedeliveryoutlined"
+      className: "icon-iconsitedeliveryoutlined",
+      style: style
     });
   };
   return IconSiteDeliveryOutlined;
@@ -566,9 +634,11 @@ var IconSunOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconSunOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconsun"
+      className: "icon-iconsun",
+      style: style
     });
   };
   return IconSunOutlined;
@@ -581,9 +651,11 @@ var IconTiktokOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconTiktokOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-icontiktokoutlined"
+      className: "icon-icontiktokoutlined",
+      style: style
     });
   };
   return IconTiktokOutlined;
@@ -596,9 +668,11 @@ var IconTotalOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconTotalOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-icontotaloutlined"
+      className: "icon-icontotaloutlined",
+      style: style
     });
   };
   return IconTotalOutlined;
@@ -611,9 +685,11 @@ var IconUserOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconUserOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconuseroutlined"
+      className: "icon-iconuseroutlined",
+      style: style
     });
   };
   return IconUserOutlined;
@@ -626,9 +702,11 @@ var IconViewOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconViewOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconviewoutlined"
+      className: "icon-iconviewoutlined",
+      style: style
     });
   };
   return IconViewOutlined;
@@ -641,9 +719,11 @@ var IconXOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconXOutlined.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconxoutlined"
+      className: "icon-iconxoutlined",
+      style: style
     });
   };
   return IconXOutlined;
