@@ -1,6 +1,6 @@
 {
   "name": "gf-react-icons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Biblioteca de iconos para react",
   "author": "sistemas-ferretti",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "scripts": {
     "build": "yarn copy && microbundle-crl --css-modules false --no-compress --format modern,cjs",
     "start": "yarn copy && microbundle-crl watch --css-modules false --no-compress --format modern,cjs",
-    "copy": "mkdir -p dist/fonts/ && cp -a src/fonts/. dist/fonts/", 
+    "copy": "mkdir -p dist/fonts/ && cp -a src/fonts/. dist/fonts/",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
