@@ -2,6 +2,9 @@ import React from 'react'
 
 export class IconLiberacion extends React.Component {
   render() {
-    return <i aria-hidden='true' className='icon-iconliberacion' />
+    const { style } = this.props
+    return (
+      <i aria-hidden='true' className='icon-iconliberacion' style={style} />
+    )
   }
 }

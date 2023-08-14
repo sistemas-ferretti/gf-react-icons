@@ -2,6 +2,9 @@ import React from 'react'
 
 export class IconFomInOutlined extends React.Component {
   render() {
-    return <i aria-hidden='true' className='icon-iconforminoutlined' />
+    const { style } = this.props
+    return (
+      <i aria-hidden='true' className='icon-iconforminoutlined' style={style} />
+    )
   }
 }

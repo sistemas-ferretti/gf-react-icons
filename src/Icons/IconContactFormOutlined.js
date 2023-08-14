@@ -2,6 +2,13 @@ import React from 'react'
 
 export class IconContactFormOutlined extends React.Component {
   render() {
-    return <i aria-hidden='true' className='icon-iconcontactformoutlined' />
+    const { style } = this.props
+    return (
+      <i
+        aria-hidden='true'
+        className='icon-iconcontactformoutlined'
+        style={style}
+      />
+    )
   }
 }

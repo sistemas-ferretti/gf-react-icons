@@ -2,6 +2,7 @@ import React from 'react'
 
 export class IconEscaleraByn extends React.Component {
   render() {
-    return <i aria-hidden='true' className='icon-escalerabyn' />
+    const { style } = this.props
+    return <i aria-hidden='true' className='icon-escalerabyn' style={style} />
   }
 }

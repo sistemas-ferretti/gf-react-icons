@@ -4,7 +4,7 @@ import {  toast } from 'react-toastify';
 
 const IconList = ({ searchWord }) => {
   const iconsArray = Object.entries(Icons);
-  console.log(iconsArray);
+
   const iconsList = iconsArray.map(([name, component]) => ({ name, component }));
 
   const filteredIcons = useMemo(() => {
@@ -27,10 +27,14 @@ const IconList = ({ searchWord }) => {
     toast.success(`Copiado: <${iconName}/>`);
   }
 
+  // const ocultarName = () => {
+
+  // }
+
   return (
     <div className='px-4 px-lg-5'>
       <h1>Lista de Iconos</h1>
-      <ul className='my-4 gf-icon-list'>
+      <ul className='my-4 gf-icon-list' style={{display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center"}}>
         {filteredIcons.map((icon, index) => (
           <li className='text-center p-2'
             key={index}
@@ -49,6 +53,7 @@ const IconList = ({ searchWord }) => {
               <p
                 style={{
                   fontSize: '14px',
+                  textOverflow: "ellipsis",
                 }}
               >
                 {icon.name}

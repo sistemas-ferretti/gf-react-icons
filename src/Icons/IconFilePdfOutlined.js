@@ -2,6 +2,13 @@ import React from 'react'
 
 export class IconFilePdfOutlined extends React.Component {
   render() {
-    return <i aria-hidden='true' className='icon-iconfilepdfoutlined' />
+    const { style } = this.props
+    return (
+      <i
+        aria-hidden='true'
+        className='icon-iconfilepdfoutlined'
+        style={style}
+      />
+    )
   }
 }

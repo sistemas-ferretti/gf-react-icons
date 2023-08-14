@@ -22,9 +22,11 @@ var IconAccountStateOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconAccountStateOutlined.prototype;
   _proto.render = function render() {
+    var styles = this.props.styles;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconaccountstateoutlined"
+      className: "icon-iconaccountstateoutlined",
+      style: styles
     });
   };
   return IconAccountStateOutlined;
@@ -412,9 +414,11 @@ var IconMoonOutlined = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconMoonOutlined.prototype;
   _proto.render = function render() {
+    var styles = this.props.styles;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-iconmoon"
+      className: "icon-iconmoon",
+      style: styles
     });
   };
   return IconMoonOutlined;
