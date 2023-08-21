@@ -812,5 +812,22 @@ var IconFactores = /*#__PURE__*/function (_React$Component) {
   return IconFactores;
 }(React.Component);
 
-export { IconAccountStateOutlined, IconAprobacion, IconArchivoOutlined, IconArquitecto, IconBetterPriceOutlined, IconCalendarOutlined, IconCalendarTimeOutlined, IconCheckDeliveryOutlined, IconCheckListTimeOutlined, IconClockOutlined, IconConfirmacion, IconConfirmacionPagoOutlined, IconContactFormOutlined, IconDetailOutlined, IconDocumento, IconEscaleraByn, IconExito, IconFactores, IconFerrettiOutlined, IconFilePdfOutlined, IconFomInOutlined, IconFormOutOutlined, IconHeartOutlined, IconHomeOutlined, IconImpuesto, IconLandColorOutlined, IconLiberacion, IconLicitudFondosClientes, IconMantenimientoTipoFactor, IconMatrizClientes, IconMoonOutlined, IconOrdersOutlined, IconPayCardOutlined, IconPayOutlined, IconPayPhoneOutlined, IconPreFormOutlined, IconReporteResu, IconRevision, IconSaveMoneyOutlined, IconShoppingCarOutlined, IconSiteDeliveryOutlined, IconSunOutlined, IconTiktokOutlined, IconTotalOutlined, IconUserOutlined, IconViewOutlined, IconXOutlined };
+var IconReporteUafe = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteUafe, _React$Component);
+  function IconReporteUafe() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconReporteUafe.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconreporteuafe",
+      style: style
+    });
+  };
+  return IconReporteUafe;
+}(React.Component);
+
+export { IconAccountStateOutlined, IconAprobacion, IconArchivoOutlined, IconArquitecto, IconBetterPriceOutlined, IconCalendarOutlined, IconCalendarTimeOutlined, IconCheckDeliveryOutlined, IconCheckListTimeOutlined, IconClockOutlined, IconConfirmacion, IconConfirmacionPagoOutlined, IconContactFormOutlined, IconDetailOutlined, IconDocumento, IconEscaleraByn, IconExito, IconFactores, IconFerrettiOutlined, IconFilePdfOutlined, IconFomInOutlined, IconFormOutOutlined, IconHeartOutlined, IconHomeOutlined, IconImpuesto, IconLandColorOutlined, IconLiberacion, IconLicitudFondosClientes, IconMantenimientoTipoFactor, IconMatrizClientes, IconMoonOutlined, IconOrdersOutlined, IconPayCardOutlined, IconPayOutlined, IconPayPhoneOutlined, IconPreFormOutlined, IconReporteResu, IconReporteUafe, IconRevision, IconSaveMoneyOutlined, IconShoppingCarOutlined, IconSiteDeliveryOutlined, IconSunOutlined, IconTiktokOutlined, IconTotalOutlined, IconUserOutlined, IconViewOutlined, IconXOutlined };
 //# sourceMappingURL=index.modern.js.map

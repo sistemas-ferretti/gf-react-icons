@@ -814,6 +814,23 @@ var IconFactores = /*#__PURE__*/function (_React$Component) {
   return IconFactores;
 }(React.Component);
 
+var IconReporteUafe = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteUafe, _React$Component);
+  function IconReporteUafe() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconReporteUafe.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconreporteuafe",
+      style: style
+    });
+  };
+  return IconReporteUafe;
+}(React.Component);
+
 exports.IconAccountStateOutlined = IconAccountStateOutlined;
 exports.IconAprobacion = IconAprobacion;
 exports.IconArchivoOutlined = IconArchivoOutlined;
@@ -851,6 +868,7 @@ exports.IconPayOutlined = IconPayOutlined;
 exports.IconPayPhoneOutlined = IconPayPhoneOutlined;
 exports.IconPreFormOutlined = IconPreFormOutlined;
 exports.IconReporteResu = IconReporteResu;
+exports.IconReporteUafe = IconReporteUafe;
 exports.IconRevision = IconRevision;
 exports.IconSaveMoneyOutlined = IconSaveMoneyOutlined;
 exports.IconShoppingCarOutlined = IconShoppingCarOutlined;
