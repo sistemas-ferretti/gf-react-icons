@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+  app:
+    tty: true
+    image: node:alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command:
+      [
+        'sh',
+        '-c',
+        'apk update && apk add git && yarn install --frozen-lockfile && yarn build && cd example && PORT=5173 yarn run start'
+      ]
+    ports:
+      - '5173:5173'
+    expose:
+      - '5173'
