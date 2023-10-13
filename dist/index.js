@@ -831,15 +831,68 @@ var IconReporteUafe = /*#__PURE__*/function (_React$Component) {
   return IconReporteUafe;
 }(React.Component);
 
+var IconGrupo = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconGrupo, _React$Component);
+  function IconGrupo() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconGrupo.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-icongrupo",
+      style: style
+    });
+  };
+  return IconGrupo;
+}(React.Component);
+
+var IconAsesorGrupo = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsesorGrupo, _React$Component);
+  function IconAsesorGrupo() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsesorGrupo.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconasesor-grupo",
+      style: style
+    });
+  };
+  return IconAsesorGrupo;
+}(React.Component);
+
+var IconClienteProspecto = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteProspecto, _React$Component);
+  function IconClienteProspecto() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteProspecto.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconcliente-prospecto",
+      style: style
+    });
+  };
+  return IconClienteProspecto;
+}(React.Component);
+
 exports.IconAccountStateOutlined = IconAccountStateOutlined;
 exports.IconAprobacion = IconAprobacion;
 exports.IconArchivoOutlined = IconArchivoOutlined;
 exports.IconArquitecto = IconArquitecto;
+exports.IconAsesorGrupo = IconAsesorGrupo;
 exports.IconBetterPriceOutlined = IconBetterPriceOutlined;
 exports.IconCalendarOutlined = IconCalendarOutlined;
 exports.IconCalendarTimeOutlined = IconCalendarTimeOutlined;
 exports.IconCheckDeliveryOutlined = IconCheckDeliveryOutlined;
 exports.IconCheckListTimeOutlined = IconCheckListTimeOutlined;
+exports.IconClienteProspecto = IconClienteProspecto;
 exports.IconClockOutlined = IconClockOutlined;
 exports.IconConfirmacion = IconConfirmacion;
 exports.IconConfirmacionPagoOutlined = IconConfirmacionPagoOutlined;
@@ -853,6 +906,7 @@ exports.IconFerrettiOutlined = IconFerrettiOutlined;
 exports.IconFilePdfOutlined = IconFilePdfOutlined;
 exports.IconFomInOutlined = IconFomInOutlined;
 exports.IconFormOutOutlined = IconFormOutOutlined;
+exports.IconGrupo = IconGrupo;
 exports.IconHeartOutlined = IconHeartOutlined;
 exports.IconHomeOutlined = IconHomeOutlined;
 exports.IconImpuesto = IconImpuesto;

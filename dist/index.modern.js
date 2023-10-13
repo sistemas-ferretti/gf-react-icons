@@ -829,5 +829,56 @@ var IconReporteUafe = /*#__PURE__*/function (_React$Component) {
   return IconReporteUafe;
 }(React.Component);
 
-export { IconAccountStateOutlined, IconAprobacion, IconArchivoOutlined, IconArquitecto, IconBetterPriceOutlined, IconCalendarOutlined, IconCalendarTimeOutlined, IconCheckDeliveryOutlined, IconCheckListTimeOutlined, IconClockOutlined, IconConfirmacion, IconConfirmacionPagoOutlined, IconContactFormOutlined, IconDetailOutlined, IconDocumento, IconEscaleraByn, IconExito, IconFactores, IconFerrettiOutlined, IconFilePdfOutlined, IconFomInOutlined, IconFormOutOutlined, IconHeartOutlined, IconHomeOutlined, IconImpuesto, IconLandColorOutlined, IconLiberacion, IconLicitudFondosClientes, IconMantenimientoTipoFactor, IconMatrizClientes, IconMoonOutlined, IconOrdersOutlined, IconPayCardOutlined, IconPayOutlined, IconPayPhoneOutlined, IconPreFormOutlined, IconReporteResu, IconReporteUafe, IconRevision, IconSaveMoneyOutlined, IconShoppingCarOutlined, IconSiteDeliveryOutlined, IconSunOutlined, IconTiktokOutlined, IconTotalOutlined, IconUserOutlined, IconViewOutlined, IconXOutlined };
+var IconGrupo = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconGrupo, _React$Component);
+  function IconGrupo() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconGrupo.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-icongrupo",
+      style: style
+    });
+  };
+  return IconGrupo;
+}(React.Component);
+
+var IconAsesorGrupo = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsesorGrupo, _React$Component);
+  function IconAsesorGrupo() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsesorGrupo.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconasesor-grupo",
+      style: style
+    });
+  };
+  return IconAsesorGrupo;
+}(React.Component);
+
+var IconClienteProspecto = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteProspecto, _React$Component);
+  function IconClienteProspecto() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteProspecto.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconcliente-prospecto",
+      style: style
+    });
+  };
+  return IconClienteProspecto;
+}(React.Component);
+
+export { IconAccountStateOutlined, IconAprobacion, IconArchivoOutlined, IconArquitecto, IconAsesorGrupo, IconBetterPriceOutlined, IconCalendarOutlined, IconCalendarTimeOutlined, IconCheckDeliveryOutlined, IconCheckListTimeOutlined, IconClienteProspecto, IconClockOutlined, IconConfirmacion, IconConfirmacionPagoOutlined, IconContactFormOutlined, IconDetailOutlined, IconDocumento, IconEscaleraByn, IconExito, IconFactores, IconFerrettiOutlined, IconFilePdfOutlined, IconFomInOutlined, IconFormOutOutlined, IconGrupo, IconHeartOutlined, IconHomeOutlined, IconImpuesto, IconLandColorOutlined, IconLiberacion, IconLicitudFondosClientes, IconMantenimientoTipoFactor, IconMatrizClientes, IconMoonOutlined, IconOrdersOutlined, IconPayCardOutlined, IconPayOutlined, IconPayPhoneOutlined, IconPreFormOutlined, IconReporteResu, IconReporteUafe, IconRevision, IconSaveMoneyOutlined, IconShoppingCarOutlined, IconSiteDeliveryOutlined, IconSunOutlined, IconTiktokOutlined, IconTotalOutlined, IconUserOutlined, IconViewOutlined, IconXOutlined };
 //# sourceMappingURL=index.modern.js.map
