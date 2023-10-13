@@ -191,3 +191,9 @@
 .icon-icongrupo:before {
   content: "\59";
 }
+.icon-iconinformacion:before {
+  content: "\5a";
+}
+.icon-iconmedios:before {
+  content: "\30";
+}

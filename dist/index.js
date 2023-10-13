@@ -882,6 +882,40 @@ var IconClienteProspecto = /*#__PURE__*/function (_React$Component) {
   return IconClienteProspecto;
 }(React.Component);
 
+var IconMedios = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMedios, _React$Component);
+  function IconMedios() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMedios.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconmedios",
+      style: style
+    });
+  };
+  return IconMedios;
+}(React.Component);
+
+var IconInformacion = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconInformacion, _React$Component);
+  function IconInformacion() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconInformacion.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconinformacion",
+      style: style
+    });
+  };
+  return IconInformacion;
+}(React.Component);
+
 exports.IconAccountStateOutlined = IconAccountStateOutlined;
 exports.IconAprobacion = IconAprobacion;
 exports.IconArchivoOutlined = IconArchivoOutlined;
@@ -910,11 +944,13 @@ exports.IconGrupo = IconGrupo;
 exports.IconHeartOutlined = IconHeartOutlined;
 exports.IconHomeOutlined = IconHomeOutlined;
 exports.IconImpuesto = IconImpuesto;
+exports.IconInformacion = IconInformacion;
 exports.IconLandColorOutlined = IconLandColorOutlined;
 exports.IconLiberacion = IconLiberacion;
 exports.IconLicitudFondosClientes = IconLicitudFondosClientes;
 exports.IconMantenimientoTipoFactor = IconMantenimientoTipoFactor;
 exports.IconMatrizClientes = IconMatrizClientes;
+exports.IconMedios = IconMedios;
 exports.IconMoonOutlined = IconMoonOutlined;
 exports.IconOrdersOutlined = IconOrdersOutlined;
 exports.IconPayCardOutlined = IconPayCardOutlined;

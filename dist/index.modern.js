@@ -880,5 +880,39 @@ var IconClienteProspecto = /*#__PURE__*/function (_React$Component) {
   return IconClienteProspecto;
 }(React.Component);
 
-export { IconAccountStateOutlined, IconAprobacion, IconArchivoOutlined, IconArquitecto, IconAsesorGrupo, IconBetterPriceOutlined, IconCalendarOutlined, IconCalendarTimeOutlined, IconCheckDeliveryOutlined, IconCheckListTimeOutlined, IconClienteProspecto, IconClockOutlined, IconConfirmacion, IconConfirmacionPagoOutlined, IconContactFormOutlined, IconDetailOutlined, IconDocumento, IconEscaleraByn, IconExito, IconFactores, IconFerrettiOutlined, IconFilePdfOutlined, IconFomInOutlined, IconFormOutOutlined, IconGrupo, IconHeartOutlined, IconHomeOutlined, IconImpuesto, IconLandColorOutlined, IconLiberacion, IconLicitudFondosClientes, IconMantenimientoTipoFactor, IconMatrizClientes, IconMoonOutlined, IconOrdersOutlined, IconPayCardOutlined, IconPayOutlined, IconPayPhoneOutlined, IconPreFormOutlined, IconReporteResu, IconReporteUafe, IconRevision, IconSaveMoneyOutlined, IconShoppingCarOutlined, IconSiteDeliveryOutlined, IconSunOutlined, IconTiktokOutlined, IconTotalOutlined, IconUserOutlined, IconViewOutlined, IconXOutlined };
+var IconMedios = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMedios, _React$Component);
+  function IconMedios() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMedios.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconmedios",
+      style: style
+    });
+  };
+  return IconMedios;
+}(React.Component);
+
+var IconInformacion = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconInformacion, _React$Component);
+  function IconInformacion() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconInformacion.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconinformacion",
+      style: style
+    });
+  };
+  return IconInformacion;
+}(React.Component);
+
+export { IconAccountStateOutlined, IconAprobacion, IconArchivoOutlined, IconArquitecto, IconAsesorGrupo, IconBetterPriceOutlined, IconCalendarOutlined, IconCalendarTimeOutlined, IconCheckDeliveryOutlined, IconCheckListTimeOutlined, IconClienteProspecto, IconClockOutlined, IconConfirmacion, IconConfirmacionPagoOutlined, IconContactFormOutlined, IconDetailOutlined, IconDocumento, IconEscaleraByn, IconExito, IconFactores, IconFerrettiOutlined, IconFilePdfOutlined, IconFomInOutlined, IconFormOutOutlined, IconGrupo, IconHeartOutlined, IconHomeOutlined, IconImpuesto, IconInformacion, IconLandColorOutlined, IconLiberacion, IconLicitudFondosClientes, IconMantenimientoTipoFactor, IconMatrizClientes, IconMedios, IconMoonOutlined, IconOrdersOutlined, IconPayCardOutlined, IconPayOutlined, IconPayPhoneOutlined, IconPreFormOutlined, IconReporteResu, IconReporteUafe, IconRevision, IconSaveMoneyOutlined, IconShoppingCarOutlined, IconSiteDeliveryOutlined, IconSunOutlined, IconTiktokOutlined, IconTotalOutlined, IconUserOutlined, IconViewOutlined, IconXOutlined };
 //# sourceMappingURL=index.modern.js.map
