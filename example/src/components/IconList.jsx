@@ -13,13 +13,15 @@ const IconList = ({ searchWord, setSearchWord }) => {
 
   const filteredIcons = useMemo(() => {
     const text = searchWord ? searchWord.trim().toLowerCase() : "";
-    if (text) {
-      const icons = iconsList.filter((icon) => icon.name.toLowerCase().includes(text));
-      return icons;
-    } else {
-      return iconsList;
-    }
-  }, [searchWord, iconsList]);
+
+    return iconsList.filter((icon) => {
+      const lowerCaseName = icon.name.toLowerCase();
+      const matchesName = lowerCaseName.includes(text);
+      const matchesCategory = lowerCaseName.includes(activeCategorie);
+
+      return matchesName && matchesCategory;
+    });
+  }, [searchWord, activeCategorie, iconsList]);
 
   const copyIcon = (iconName) => {
     const el = document.createElement('textarea');
