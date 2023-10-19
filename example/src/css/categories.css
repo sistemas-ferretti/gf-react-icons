@@ -1,0 +1,26 @@
+.list-categories{
+  display: flex;
+  gap: 15px;
+  width: max-content;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.categorie{
+  list-style-type: none;
+}
+
+.link-categorie{
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #ffffff;
+  transition: all .3s ease;
+}
+
+.active{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+}

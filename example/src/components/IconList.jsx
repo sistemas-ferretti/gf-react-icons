@@ -1,9 +1,11 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import * as Icons from 'gf-react-icons';
 import {  toast } from 'react-toastify';
+import '../css/categories.css';
 
-const IconList = ({ searchWord }) => {
+const IconList = ({ searchWord, setSearchWord }) => {
   const [isShowName, setIsShowName] = useState(true);
+  const [activeCategorie, setActiveCategorie] = useState('outlined');
   const iconsArray = Object.entries(Icons);
   let timeoutId;
 
@@ -12,7 +14,8 @@ const IconList = ({ searchWord }) => {
   const filteredIcons = useMemo(() => {
     const text = searchWord ? searchWord.trim().toLowerCase() : "";
     if (text) {
-      return iconsList.filter((icon) => icon.name.toLowerCase().includes(text));
+      const icons = iconsList.filter((icon) => icon.name.toLowerCase().includes(text));
+      return icons;
     } else {
       return iconsList;
     }
@@ -26,7 +29,7 @@ const IconList = ({ searchWord }) => {
     document.execCommand('copy');
     document.body.removeChild(el);
 
-    toast.success(`Copiado: <${iconName}/>`);
+    toast.success(`Copiado: <${iconName} />`);
   }
 
   const ocultarName = () => {
@@ -44,6 +47,12 @@ const IconList = ({ searchWord }) => {
     timeoutId = setTimeout(ocultarName, 300);
   };
 
+  const filteredIconsCategorie = (e) => {
+    const text = e.target.textContent.trim().toLowerCase();
+    setActiveCategorie(text);
+    setSearchWord(text);
+  };
+
   useEffect(() => {
     window.addEventListener('resize', handleResize);
     return () => {
@@ -51,9 +60,18 @@ const IconList = ({ searchWord }) => {
     };
   }, []);
 
+  useEffect(() => {
+    setSearchWord(activeCategorie);
+  }, []);
+
   return (
     <div className='px-4 px-lg-5'>
       <h1>Lista de Iconos</h1>
+        <ul className='list-categories'>
+          <li className={`categorie ${activeCategorie === 'outlined' ? 'active' : ''}`}><button onClick={filteredIconsCategorie} className="link-categorie">Outlined</button></li>
+          <li className={`categorie ${activeCategorie === 'filled' ? 'active' : ''}`}><button onClick={filteredIconsCategorie} className="link-categorie">Filled</button></li>
+          <li className={`categorie ${activeCategorie === 'twotone' ? 'active' : ''}`}><button onClick={filteredIconsCategorie} className="link-categorie">TwoTone</button></li>
+        </ul>
       <ul className='my-4 gf-icon-list' style={{display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center"}}>
         {filteredIcons.map((icon, index) => (
           <li className='text-center p-2'

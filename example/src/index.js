@@ -1,12 +1,14 @@
 import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-toastify/dist/ReactToastify.css'
-import './index.css';
+import 'gf-react-icons/dist/index.css'
+import './index.css'
 
 ReactDOM.render(
-    <StrictMode>
-        <App />
-    </StrictMode>
-, document.getElementById('root'))
+  <StrictMode>
+    <App />
+  </StrictMode>,
+  document.getElementById('root')
+)
