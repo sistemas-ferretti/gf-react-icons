@@ -2080,5 +2080,44 @@ var IconInformacionTwoTone = /*#__PURE__*/function (_React$Component) {
   return IconInformacionTwoTone;
 }(React.Component);
 
-export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone };
+var IconContabilidadOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContabilidadOutlined, _React$Component);
+  function IconContabilidadOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContabilidadOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-contabilidad",
+      style: style
+    });
+  };
+  return IconContabilidadOutlined;
+}(React.Component);
+
+var IconContabilidadTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContabilidadTwoTone, _React$Component);
+  function IconContabilidadTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContabilidadTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-contabilidad",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconContabilidadTwoTone;
+}(React.Component);
+
+export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContabilidadOutlined, IconContabilidadTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone };
 //# sourceMappingURL=index.modern.js.map

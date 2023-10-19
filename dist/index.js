@@ -2082,6 +2082,45 @@ var IconInformacionTwoTone = /*#__PURE__*/function (_React$Component) {
   return IconInformacionTwoTone;
 }(React.Component);
 
+var IconContabilidadOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContabilidadOutlined, _React$Component);
+  function IconContabilidadOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContabilidadOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-contabilidad",
+      style: style
+    });
+  };
+  return IconContabilidadOutlined;
+}(React.Component);
+
+var IconContabilidadTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContabilidadTwoTone, _React$Component);
+  function IconContabilidadTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContabilidadTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-contabilidad",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconContabilidadTwoTone;
+}(React.Component);
+
 exports.IconAccountStateFilled = IconAccountStateFilled;
 exports.IconAccountStateTwoTone = IconAccountStateTwoTone;
 exports.IconAprobacionOutlined = IconAprobacionOutlined;
@@ -2110,6 +2149,8 @@ exports.IconConfirmacionOutlined = IconConfirmacionOutlined;
 exports.IconConfirmacionPagoOutlined = IconConfirmacionPagoOutlined;
 exports.IconConfirmacionPagoTwoTone = IconConfirmacionPagoTwoTone;
 exports.IconConfirmacionTwoTone = IconConfirmacionTwoTone;
+exports.IconContabilidadOutlined = IconContabilidadOutlined;
+exports.IconContabilidadTwoTone = IconContabilidadTwoTone;
 exports.IconContactFormOutlined = IconContactFormOutlined;
 exports.IconContactFormTwoTone = IconContactFormTwoTone;
 exports.IconDetailOutlined = IconDetailOutlined;
