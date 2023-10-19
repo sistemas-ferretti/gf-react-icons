@@ -13,12 +13,12 @@ function _setPrototypeOf(o, p) {
   return _setPrototypeOf(o, p);
 }
 
-var IconAccountStateOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconAccountStateOutlined, _React$Component);
-  function IconAccountStateOutlined() {
+var IconAccountStateFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAccountStateFilled, _React$Component);
+  function IconAccountStateFilled() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconAccountStateOutlined.prototype;
+  var _proto = IconAccountStateFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -27,15 +27,37 @@ var IconAccountStateOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconAccountStateOutlined;
+  return IconAccountStateFilled;
 }(React.Component);
 
-var IconAprobacion = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconAprobacion, _React$Component);
-  function IconAprobacion() {
+var IconAccountStateTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAccountStateTwoTone, _React$Component);
+  function IconAccountStateTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconAprobacion.prototype;
+  var _proto = IconAccountStateTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconaccountstateoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconAccountStateTwoTone;
+}(React.Component);
+
+var IconAprobacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAprobacionOutlined, _React$Component);
+  function IconAprobacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAprobacionOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -44,7 +66,29 @@ var IconAprobacion = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconAprobacion;
+  return IconAprobacionOutlined;
+}(React.Component);
+
+var IconAprobacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAprobacionTwoTone, _React$Component);
+  function IconAprobacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAprobacionTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconaprobacion",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconAprobacionTwoTone;
 }(React.Component);
 
 var IconArchivoOutlined = /*#__PURE__*/function (_React$Component) {
@@ -64,12 +108,34 @@ var IconArchivoOutlined = /*#__PURE__*/function (_React$Component) {
   return IconArchivoOutlined;
 }(React.Component);
 
-var IconArquitecto = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconArquitecto, _React$Component);
-  function IconArquitecto() {
+var IconArchivoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconArchivoTwoTone, _React$Component);
+  function IconArchivoTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconArquitecto.prototype;
+  var _proto = IconArchivoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconarchivooutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconArchivoTwoTone;
+}(React.Component);
+
+var IconArquitectoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconArquitectoOutlined, _React$Component);
+  function IconArquitectoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconArquitectoOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -78,7 +144,29 @@ var IconArquitecto = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconArquitecto;
+  return IconArquitectoOutlined;
+}(React.Component);
+
+var IconArquitectoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconArquitectoTwoTone, _React$Component);
+  function IconArquitectoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconArquitectoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconarquitecto",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconArquitectoTwoTone;
 }(React.Component);
 
 var IconBetterPriceOutlined = /*#__PURE__*/function (_React$Component) {
@@ -98,12 +186,34 @@ var IconBetterPriceOutlined = /*#__PURE__*/function (_React$Component) {
   return IconBetterPriceOutlined;
 }(React.Component);
 
-var IconCalendarOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconCalendarOutlined, _React$Component);
-  function IconCalendarOutlined() {
+var IconBetterPriceTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconBetterPriceTwoTone, _React$Component);
+  function IconBetterPriceTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconCalendarOutlined.prototype;
+  var _proto = IconBetterPriceTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconbetterpriceoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconBetterPriceTwoTone;
+}(React.Component);
+
+var IconCalendarFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCalendarFilled, _React$Component);
+  function IconCalendarFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCalendarFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -112,15 +222,37 @@ var IconCalendarOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconCalendarOutlined;
+  return IconCalendarFilled;
 }(React.Component);
 
-var IconCalendarTimeOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconCalendarTimeOutlined, _React$Component);
-  function IconCalendarTimeOutlined() {
+var IconCalendarTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCalendarTwoTone, _React$Component);
+  function IconCalendarTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconCalendarTimeOutlined.prototype;
+  var _proto = IconCalendarTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconcalendaroutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconCalendarTwoTone;
+}(React.Component);
+
+var IconCalendarTimeFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCalendarTimeFilled, _React$Component);
+  function IconCalendarTimeFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCalendarTimeFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -129,7 +261,29 @@ var IconCalendarTimeOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconCalendarTimeOutlined;
+  return IconCalendarTimeFilled;
+}(React.Component);
+
+var IconCalendarTimeTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCalendarTimeTwoTone, _React$Component);
+  function IconCalendarTimeTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCalendarTimeTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconcalendartimeoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconCalendarTimeTwoTone;
 }(React.Component);
 
 var IconCheckDeliveryOutlined = /*#__PURE__*/function (_React$Component) {
@@ -149,6 +303,28 @@ var IconCheckDeliveryOutlined = /*#__PURE__*/function (_React$Component) {
   return IconCheckDeliveryOutlined;
 }(React.Component);
 
+var IconCheckDeliveryTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCheckDeliveryTwoTone, _React$Component);
+  function IconCheckDeliveryTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCheckDeliveryTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconcheckdeliveryoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconCheckDeliveryTwoTone;
+}(React.Component);
+
 var IconCheckListTimeOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconCheckListTimeOutlined, _React$Component);
   function IconCheckListTimeOutlined() {
@@ -166,12 +342,34 @@ var IconCheckListTimeOutlined = /*#__PURE__*/function (_React$Component) {
   return IconCheckListTimeOutlined;
 }(React.Component);
 
-var IconClockOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconClockOutlined, _React$Component);
-  function IconClockOutlined() {
+var IconCheckListTimeTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCheckListTimeTwoTone, _React$Component);
+  function IconCheckListTimeTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconClockOutlined.prototype;
+  var _proto = IconCheckListTimeTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconchecklisttimeoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconCheckListTimeTwoTone;
+}(React.Component);
+
+var IconClockFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClockFilled, _React$Component);
+  function IconClockFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClockFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -180,15 +378,37 @@ var IconClockOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconClockOutlined;
+  return IconClockFilled;
 }(React.Component);
 
-var IconConfirmacion = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconConfirmacion, _React$Component);
-  function IconConfirmacion() {
+var IconClockTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClockTwoTone, _React$Component);
+  function IconClockTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconConfirmacion.prototype;
+  var _proto = IconClockTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconclockoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconClockTwoTone;
+}(React.Component);
+
+var IconConfirmacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionOutlined, _React$Component);
+  function IconConfirmacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconConfirmacionOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -197,7 +417,29 @@ var IconConfirmacion = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconConfirmacion;
+  return IconConfirmacionOutlined;
+}(React.Component);
+
+var IconConfirmacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionTwoTone, _React$Component);
+  function IconConfirmacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconConfirmacionTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconconfirmacion",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconConfirmacionTwoTone;
 }(React.Component);
 
 var IconConfirmacionPagoOutlined = /*#__PURE__*/function (_React$Component) {
@@ -217,6 +459,28 @@ var IconConfirmacionPagoOutlined = /*#__PURE__*/function (_React$Component) {
   return IconConfirmacionPagoOutlined;
 }(React.Component);
 
+var IconConfirmacionPagoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionPagoTwoTone, _React$Component);
+  function IconConfirmacionPagoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconConfirmacionPagoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconconfirmacionpago",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconConfirmacionPagoTwoTone;
+}(React.Component);
+
 var IconContactFormOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconContactFormOutlined, _React$Component);
   function IconContactFormOutlined() {
@@ -232,6 +496,28 @@ var IconContactFormOutlined = /*#__PURE__*/function (_React$Component) {
     });
   };
   return IconContactFormOutlined;
+}(React.Component);
+
+var IconContactFormTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContactFormTwoTone, _React$Component);
+  function IconContactFormTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContactFormTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconcontactformoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconContactFormTwoTone;
 }(React.Component);
 
 var IconDetailOutlined = /*#__PURE__*/function (_React$Component) {
@@ -251,12 +537,34 @@ var IconDetailOutlined = /*#__PURE__*/function (_React$Component) {
   return IconDetailOutlined;
 }(React.Component);
 
-var IconDocumento = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconDocumento, _React$Component);
-  function IconDocumento() {
+var IconDetailTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconDetailTwoTone, _React$Component);
+  function IconDetailTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconDocumento.prototype;
+  var _proto = IconDetailTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-icondetailoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconDetailTwoTone;
+}(React.Component);
+
+var IconDocumentoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconDocumentoOutlined, _React$Component);
+  function IconDocumentoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconDocumentoOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -265,15 +573,37 @@ var IconDocumento = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconDocumento;
+  return IconDocumentoOutlined;
 }(React.Component);
 
-var IconEscaleraByn = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconEscaleraByn, _React$Component);
-  function IconEscaleraByn() {
+var IconDocumentoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconDocumentoTwoTone, _React$Component);
+  function IconDocumentoTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconEscaleraByn.prototype;
+  var _proto = IconDocumentoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-icondocumento",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconDocumentoTwoTone;
+}(React.Component);
+
+var IconEscaleraBynOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconEscaleraBynOutlined, _React$Component);
+  function IconEscaleraBynOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconEscaleraBynOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -282,15 +612,37 @@ var IconEscaleraByn = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconEscaleraByn;
+  return IconEscaleraBynOutlined;
 }(React.Component);
 
-var IconExito = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconExito, _React$Component);
-  function IconExito() {
+var IconEscaleraBynTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconEscaleraBynTwoTone, _React$Component);
+  function IconEscaleraBynTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconExito.prototype;
+  var _proto = IconEscaleraBynTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-escalerabyn",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconEscaleraBynTwoTone;
+}(React.Component);
+
+var IconExitoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconExitoOutlined, _React$Component);
+  function IconExitoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconExitoOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -299,15 +651,37 @@ var IconExito = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconExito;
+  return IconExitoOutlined;
 }(React.Component);
 
-var IconFerrettiOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconFerrettiOutlined, _React$Component);
-  function IconFerrettiOutlined() {
+var IconExitoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconExitoTwoTone, _React$Component);
+  function IconExitoTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconFerrettiOutlined.prototype;
+  var _proto = IconExitoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconexito",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconExitoTwoTone;
+}(React.Component);
+
+var IconFerrettiFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFerrettiFilled, _React$Component);
+  function IconFerrettiFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFerrettiFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -316,7 +690,29 @@ var IconFerrettiOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconFerrettiOutlined;
+  return IconFerrettiFilled;
+}(React.Component);
+
+var IconFerrettiTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFerrettiTwoTone, _React$Component);
+  function IconFerrettiTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFerrettiTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconferrettioutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconFerrettiTwoTone;
 }(React.Component);
 
 var IconFilePdfOutlined = /*#__PURE__*/function (_React$Component) {
@@ -336,6 +732,28 @@ var IconFilePdfOutlined = /*#__PURE__*/function (_React$Component) {
   return IconFilePdfOutlined;
 }(React.Component);
 
+var IconFilePdfTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFilePdfTwoTone, _React$Component);
+  function IconFilePdfTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFilePdfTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconfilepdfoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconFilePdfTwoTone;
+}(React.Component);
+
 var IconFomInOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconFomInOutlined, _React$Component);
   function IconFomInOutlined() {
@@ -353,12 +771,34 @@ var IconFomInOutlined = /*#__PURE__*/function (_React$Component) {
   return IconFomInOutlined;
 }(React.Component);
 
-var IconFormOutOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconFormOutOutlined, _React$Component);
-  function IconFormOutOutlined() {
+var IconFomInTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFomInTwoTone, _React$Component);
+  function IconFomInTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconFormOutOutlined.prototype;
+  var _proto = IconFomInTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconforminoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconFomInTwoTone;
+}(React.Component);
+
+var IconFormOutFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFormOutFilled, _React$Component);
+  function IconFormOutFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFormOutFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -367,7 +807,29 @@ var IconFormOutOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconFormOutOutlined;
+  return IconFormOutFilled;
+}(React.Component);
+
+var IconFormOutTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFormOutTwoTone, _React$Component);
+  function IconFormOutTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFormOutTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconformoutoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconFormOutTwoTone;
 }(React.Component);
 
 var IconHeartOutlined = /*#__PURE__*/function (_React$Component) {
@@ -387,6 +849,28 @@ var IconHeartOutlined = /*#__PURE__*/function (_React$Component) {
   return IconHeartOutlined;
 }(React.Component);
 
+var IconHeartTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconHeartTwoTone, _React$Component);
+  function IconHeartTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconHeartTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconheartoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconHeartTwoTone;
+}(React.Component);
+
 var IconHomeOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconHomeOutlined, _React$Component);
   function IconHomeOutlined() {
@@ -404,12 +888,34 @@ var IconHomeOutlined = /*#__PURE__*/function (_React$Component) {
   return IconHomeOutlined;
 }(React.Component);
 
-var IconImpuesto = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconImpuesto, _React$Component);
-  function IconImpuesto() {
+var IconHomeTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconHomeTwoTone, _React$Component);
+  function IconHomeTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconImpuesto.prototype;
+  var _proto = IconHomeTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconhomeoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconHomeTwoTone;
+}(React.Component);
+
+var IconImpuestoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconImpuestoOutlined, _React$Component);
+  function IconImpuestoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconImpuestoOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -418,7 +924,29 @@ var IconImpuesto = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconImpuesto;
+  return IconImpuestoOutlined;
+}(React.Component);
+
+var IconImpuestoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconImpuestoTwoTone, _React$Component);
+  function IconImpuestoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconImpuestoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconimpuesto",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconImpuestoTwoTone;
 }(React.Component);
 
 var IconLandColorOutlined = /*#__PURE__*/function (_React$Component) {
@@ -438,12 +966,34 @@ var IconLandColorOutlined = /*#__PURE__*/function (_React$Component) {
   return IconLandColorOutlined;
 }(React.Component);
 
-var IconLiberacion = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconLiberacion, _React$Component);
-  function IconLiberacion() {
+var IconLandColorTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLandColorTwoTone, _React$Component);
+  function IconLandColorTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconLiberacion.prototype;
+  var _proto = IconLandColorTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconlandcoloroutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconLandColorTwoTone;
+}(React.Component);
+
+var IconLiberacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLiberacionOutlined, _React$Component);
+  function IconLiberacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLiberacionOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -452,7 +1002,29 @@ var IconLiberacion = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconLiberacion;
+  return IconLiberacionOutlined;
+}(React.Component);
+
+var IconLiberacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLiberacionTwoTone, _React$Component);
+  function IconLiberacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLiberacionTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconliberacion",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconLiberacionTwoTone;
 }(React.Component);
 
 var IconMoonOutlined = /*#__PURE__*/function (_React$Component) {
@@ -472,6 +1044,28 @@ var IconMoonOutlined = /*#__PURE__*/function (_React$Component) {
   return IconMoonOutlined;
 }(React.Component);
 
+var IconMoonTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMoonTwoTone, _React$Component);
+  function IconMoonTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMoonTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconmoon",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconMoonTwoTone;
+}(React.Component);
+
 var IconOrdersOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconOrdersOutlined, _React$Component);
   function IconOrdersOutlined() {
@@ -487,6 +1081,28 @@ var IconOrdersOutlined = /*#__PURE__*/function (_React$Component) {
     });
   };
   return IconOrdersOutlined;
+}(React.Component);
+
+var IconOrdersTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconOrdersTwoTone, _React$Component);
+  function IconOrdersTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconOrdersTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconordersoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconOrdersTwoTone;
 }(React.Component);
 
 var IconPayCardOutlined = /*#__PURE__*/function (_React$Component) {
@@ -506,6 +1122,28 @@ var IconPayCardOutlined = /*#__PURE__*/function (_React$Component) {
   return IconPayCardOutlined;
 }(React.Component);
 
+var IconPayCardTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayCardTwoTone, _React$Component);
+  function IconPayCardTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPayCardTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconpaycardoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconPayCardTwoTone;
+}(React.Component);
+
 var IconPayOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconPayOutlined, _React$Component);
   function IconPayOutlined() {
@@ -523,12 +1161,34 @@ var IconPayOutlined = /*#__PURE__*/function (_React$Component) {
   return IconPayOutlined;
 }(React.Component);
 
-var IconPayPhoneOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconPayPhoneOutlined, _React$Component);
-  function IconPayPhoneOutlined() {
+var IconPayTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayTwoTone, _React$Component);
+  function IconPayTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconPayPhoneOutlined.prototype;
+  var _proto = IconPayTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconpayoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconPayTwoTone;
+}(React.Component);
+
+var IconPayPhoneFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayPhoneFilled, _React$Component);
+  function IconPayPhoneFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPayPhoneFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -537,15 +1197,37 @@ var IconPayPhoneOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconPayPhoneOutlined;
+  return IconPayPhoneFilled;
 }(React.Component);
 
-var IconPreFormOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconPreFormOutlined, _React$Component);
-  function IconPreFormOutlined() {
+var IconPayPhoneTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayPhoneTwoTone, _React$Component);
+  function IconPayPhoneTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconPreFormOutlined.prototype;
+  var _proto = IconPayPhoneTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconpayphoneoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconPayPhoneTwoTone;
+}(React.Component);
+
+var IconPreFormFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPreFormFilled, _React$Component);
+  function IconPreFormFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPreFormFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -554,15 +1236,37 @@ var IconPreFormOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconPreFormOutlined;
+  return IconPreFormFilled;
 }(React.Component);
 
-var IconRevision = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconRevision, _React$Component);
-  function IconRevision() {
+var IconPreFormTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPreFormTwoTone, _React$Component);
+  function IconPreFormTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconRevision.prototype;
+  var _proto = IconPreFormTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconpreformoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconPreFormTwoTone;
+}(React.Component);
+
+var IconRevisionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconRevisionOutlined, _React$Component);
+  function IconRevisionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconRevisionOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -571,7 +1275,29 @@ var IconRevision = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconRevision;
+  return IconRevisionOutlined;
+}(React.Component);
+
+var IconRevisionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconRevisionTwoTone, _React$Component);
+  function IconRevisionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconRevisionTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconrevision",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconRevisionTwoTone;
 }(React.Component);
 
 var IconSaveMoneyOutlined = /*#__PURE__*/function (_React$Component) {
@@ -591,6 +1317,28 @@ var IconSaveMoneyOutlined = /*#__PURE__*/function (_React$Component) {
   return IconSaveMoneyOutlined;
 }(React.Component);
 
+var IconSaveMoneyTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSaveMoneyTwoTone, _React$Component);
+  function IconSaveMoneyTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSaveMoneyTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconsavemoneyoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconSaveMoneyTwoTone;
+}(React.Component);
+
 var IconShoppingCarOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconShoppingCarOutlined, _React$Component);
   function IconShoppingCarOutlined() {
@@ -606,6 +1354,28 @@ var IconShoppingCarOutlined = /*#__PURE__*/function (_React$Component) {
     });
   };
   return IconShoppingCarOutlined;
+}(React.Component);
+
+var IconShoppingCarTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconShoppingCarTwoTone, _React$Component);
+  function IconShoppingCarTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconShoppingCarTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconshopping-caroutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconShoppingCarTwoTone;
 }(React.Component);
 
 var IconSiteDeliveryOutlined = /*#__PURE__*/function (_React$Component) {
@@ -625,6 +1395,28 @@ var IconSiteDeliveryOutlined = /*#__PURE__*/function (_React$Component) {
   return IconSiteDeliveryOutlined;
 }(React.Component);
 
+var IconSiteDeliveryTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSiteDeliveryTwoTone, _React$Component);
+  function IconSiteDeliveryTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSiteDeliveryTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconsitedeliveryoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconSiteDeliveryTwoTone;
+}(React.Component);
+
 var IconSunOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconSunOutlined, _React$Component);
   function IconSunOutlined() {
@@ -640,6 +1432,28 @@ var IconSunOutlined = /*#__PURE__*/function (_React$Component) {
     });
   };
   return IconSunOutlined;
+}(React.Component);
+
+var IconSunTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSunTwoTone, _React$Component);
+  function IconSunTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSunTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconsun",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconSunTwoTone;
 }(React.Component);
 
 var IconTiktokOutlined = /*#__PURE__*/function (_React$Component) {
@@ -659,6 +1473,28 @@ var IconTiktokOutlined = /*#__PURE__*/function (_React$Component) {
   return IconTiktokOutlined;
 }(React.Component);
 
+var IconTiktokTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconTiktokTwoTone, _React$Component);
+  function IconTiktokTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconTiktokTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-icontiktokoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconTiktokTwoTone;
+}(React.Component);
+
 var IconTotalOutlined = /*#__PURE__*/function (_React$Component) {
   _inheritsLoose(IconTotalOutlined, _React$Component);
   function IconTotalOutlined() {
@@ -674,6 +1510,28 @@ var IconTotalOutlined = /*#__PURE__*/function (_React$Component) {
     });
   };
   return IconTotalOutlined;
+}(React.Component);
+
+var IconTotalTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconTotalTwoTone, _React$Component);
+  function IconTotalTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconTotalTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-icontotaloutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconTotalTwoTone;
 }(React.Component);
 
 var IconUserOutlined = /*#__PURE__*/function (_React$Component) {
@@ -693,12 +1551,34 @@ var IconUserOutlined = /*#__PURE__*/function (_React$Component) {
   return IconUserOutlined;
 }(React.Component);
 
-var IconViewOutlined = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconViewOutlined, _React$Component);
-  function IconViewOutlined() {
+var IconUserTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconUserTwoTone, _React$Component);
+  function IconUserTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconViewOutlined.prototype;
+  var _proto = IconUserTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconuseroutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconUserTwoTone;
+}(React.Component);
+
+var IconViewFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconViewFilled, _React$Component);
+  function IconViewFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconViewFilled.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -707,7 +1587,29 @@ var IconViewOutlined = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconViewOutlined;
+  return IconViewFilled;
+}(React.Component);
+
+var IconViewTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconViewTwoTone, _React$Component);
+  function IconViewTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconViewTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconviewoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconViewTwoTone;
 }(React.Component);
 
 var IconXOutlined = /*#__PURE__*/function (_React$Component) {
@@ -727,12 +1629,34 @@ var IconXOutlined = /*#__PURE__*/function (_React$Component) {
   return IconXOutlined;
 }(React.Component);
 
-var IconReporteResu = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconReporteResu, _React$Component);
-  function IconReporteResu() {
+var IconXTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconXTwoTone, _React$Component);
+  function IconXTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconReporteResu.prototype;
+  var _proto = IconXTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconxoutlined",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconXTwoTone;
+}(React.Component);
+
+var IconReporteResuOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteResuOutlined, _React$Component);
+  function IconReporteResuOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconReporteResuOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -741,15 +1665,37 @@ var IconReporteResu = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconReporteResu;
+  return IconReporteResuOutlined;
 }(React.Component);
 
-var IconMatrizClientes = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconMatrizClientes, _React$Component);
-  function IconMatrizClientes() {
+var IconReporteResuTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteResuTwoTone, _React$Component);
+  function IconReporteResuTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconMatrizClientes.prototype;
+  var _proto = IconReporteResuTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconreporteresu",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconReporteResuTwoTone;
+}(React.Component);
+
+var IconMatrizClientesOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMatrizClientesOutlined, _React$Component);
+  function IconMatrizClientesOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMatrizClientesOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -758,15 +1704,37 @@ var IconMatrizClientes = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconMatrizClientes;
+  return IconMatrizClientesOutlined;
 }(React.Component);
 
-var IconMantenimientoTipoFactor = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconMantenimientoTipoFactor, _React$Component);
-  function IconMantenimientoTipoFactor() {
+var IconMatrizClientesTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMatrizClientesTwoTone, _React$Component);
+  function IconMatrizClientesTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconMantenimientoTipoFactor.prototype;
+  var _proto = IconMatrizClientesTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconmatrizclientes",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconMatrizClientesTwoTone;
+}(React.Component);
+
+var IconMantenimientoTipoFactorOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMantenimientoTipoFactorOutlined, _React$Component);
+  function IconMantenimientoTipoFactorOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMantenimientoTipoFactorOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -775,15 +1743,37 @@ var IconMantenimientoTipoFactor = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconMantenimientoTipoFactor;
+  return IconMantenimientoTipoFactorOutlined;
 }(React.Component);
 
-var IconLicitudFondosClientes = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconLicitudFondosClientes, _React$Component);
-  function IconLicitudFondosClientes() {
+var IconMantenimientoTipoFactorTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMantenimientoTipoFactorTwoTone, _React$Component);
+  function IconMantenimientoTipoFactorTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconLicitudFondosClientes.prototype;
+  var _proto = IconMantenimientoTipoFactorTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconmantenimientotipofactor",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconMantenimientoTipoFactorTwoTone;
+}(React.Component);
+
+var IconLicitudFondosClientesOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLicitudFondosClientesOutlined, _React$Component);
+  function IconLicitudFondosClientesOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLicitudFondosClientesOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -792,15 +1782,37 @@ var IconLicitudFondosClientes = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconLicitudFondosClientes;
+  return IconLicitudFondosClientesOutlined;
 }(React.Component);
 
-var IconFactores = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconFactores, _React$Component);
-  function IconFactores() {
+var IconLicitudFondosClientesTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLicitudFondosClientesTwoTone, _React$Component);
+  function IconLicitudFondosClientesTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconFactores.prototype;
+  var _proto = IconLicitudFondosClientesTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconlicitudfondos",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconLicitudFondosClientesTwoTone;
+}(React.Component);
+
+var IconFactoresOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFactoresOutlined, _React$Component);
+  function IconFactoresOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFactoresOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -809,15 +1821,37 @@ var IconFactores = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconFactores;
+  return IconFactoresOutlined;
 }(React.Component);
 
-var IconReporteUafe = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconReporteUafe, _React$Component);
-  function IconReporteUafe() {
+var IconFactoresTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFactoresTwoTone, _React$Component);
+  function IconFactoresTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconReporteUafe.prototype;
+  var _proto = IconFactoresTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconfactores",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconFactoresTwoTone;
+}(React.Component);
+
+var IconReporteUafeOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteUafeOutlined, _React$Component);
+  function IconReporteUafeOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconReporteUafeOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -826,15 +1860,37 @@ var IconReporteUafe = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconReporteUafe;
+  return IconReporteUafeOutlined;
 }(React.Component);
 
-var IconGrupo = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconGrupo, _React$Component);
-  function IconGrupo() {
+var IconReporteUafeTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteUafeTwoTone, _React$Component);
+  function IconReporteUafeTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconGrupo.prototype;
+  var _proto = IconReporteUafeTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconreporteuafe",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconReporteUafeTwoTone;
+}(React.Component);
+
+var IconGrupoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconGrupoOutlined, _React$Component);
+  function IconGrupoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconGrupoOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -843,15 +1899,37 @@ var IconGrupo = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconGrupo;
+  return IconGrupoOutlined;
 }(React.Component);
 
-var IconAsesorGrupo = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconAsesorGrupo, _React$Component);
-  function IconAsesorGrupo() {
+var IconGrupoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconGrupoTwoTone, _React$Component);
+  function IconGrupoTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconAsesorGrupo.prototype;
+  var _proto = IconGrupoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-icongrupo",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconGrupoTwoTone;
+}(React.Component);
+
+var IconAsesorGrupoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsesorGrupoOutlined, _React$Component);
+  function IconAsesorGrupoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsesorGrupoOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -860,15 +1938,37 @@ var IconAsesorGrupo = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconAsesorGrupo;
+  return IconAsesorGrupoOutlined;
 }(React.Component);
 
-var IconClienteProspecto = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconClienteProspecto, _React$Component);
-  function IconClienteProspecto() {
+var IconAsesorGrupoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsesorGrupoTwoTone, _React$Component);
+  function IconAsesorGrupoTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconClienteProspecto.prototype;
+  var _proto = IconAsesorGrupoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconasesor-grupo",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconAsesorGrupoTwoTone;
+}(React.Component);
+
+var IconClienteProspectoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteProspectoOutlined, _React$Component);
+  function IconClienteProspectoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteProspectoOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -877,15 +1977,37 @@ var IconClienteProspecto = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconClienteProspecto;
+  return IconClienteProspectoOutlined;
 }(React.Component);
 
-var IconMedios = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconMedios, _React$Component);
-  function IconMedios() {
+var IconClienteProspectoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteProspectoTwoTone, _React$Component);
+  function IconClienteProspectoTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconMedios.prototype;
+  var _proto = IconClienteProspectoTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconcliente-prospecto",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconClienteProspectoTwoTone;
+}(React.Component);
+
+var IconMediosOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMediosOutlined, _React$Component);
+  function IconMediosOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMediosOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -894,15 +2016,37 @@ var IconMedios = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconMedios;
+  return IconMediosOutlined;
 }(React.Component);
 
-var IconInformacion = /*#__PURE__*/function (_React$Component) {
-  _inheritsLoose(IconInformacion, _React$Component);
-  function IconInformacion() {
+var IconMediosTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMediosTwoTone, _React$Component);
+  function IconMediosTwoTone() {
     return _React$Component.apply(this, arguments) || this;
   }
-  var _proto = IconInformacion.prototype;
+  var _proto = IconMediosTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconmedios",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconMediosTwoTone;
+}(React.Component);
+
+var IconInformacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconInformacionOutlined, _React$Component);
+  function IconInformacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconInformacionOutlined.prototype;
   _proto.render = function render() {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
@@ -911,8 +2055,30 @@ var IconInformacion = /*#__PURE__*/function (_React$Component) {
       style: style
     });
   };
-  return IconInformacion;
+  return IconInformacionOutlined;
 }(React.Component);
 
-export { IconAccountStateOutlined, IconAprobacion, IconArchivoOutlined, IconArquitecto, IconAsesorGrupo, IconBetterPriceOutlined, IconCalendarOutlined, IconCalendarTimeOutlined, IconCheckDeliveryOutlined, IconCheckListTimeOutlined, IconClienteProspecto, IconClockOutlined, IconConfirmacion, IconConfirmacionPagoOutlined, IconContactFormOutlined, IconDetailOutlined, IconDocumento, IconEscaleraByn, IconExito, IconFactores, IconFerrettiOutlined, IconFilePdfOutlined, IconFomInOutlined, IconFormOutOutlined, IconGrupo, IconHeartOutlined, IconHomeOutlined, IconImpuesto, IconInformacion, IconLandColorOutlined, IconLiberacion, IconLicitudFondosClientes, IconMantenimientoTipoFactor, IconMatrizClientes, IconMedios, IconMoonOutlined, IconOrdersOutlined, IconPayCardOutlined, IconPayOutlined, IconPayPhoneOutlined, IconPreFormOutlined, IconReporteResu, IconReporteUafe, IconRevision, IconSaveMoneyOutlined, IconShoppingCarOutlined, IconSiteDeliveryOutlined, IconSunOutlined, IconTiktokOutlined, IconTotalOutlined, IconUserOutlined, IconViewOutlined, IconXOutlined };
+var IconInformacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconInformacionTwoTone, _React$Component);
+  function IconInformacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconInformacionTwoTone.prototype;
+  _proto.render = function render() {
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconinformacion",
+      style: {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      }
+    });
+  };
+  return IconInformacionTwoTone;
+}(React.Component);
+
+export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone };
 //# sourceMappingURL=index.modern.js.map
