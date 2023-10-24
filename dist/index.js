@@ -2,6 +2,20 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var React = _interopDefault(require('react'));
 
+function _extends() {
+  _extends = Object.assign ? Object.assign.bind() : function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+    return target;
+  };
+  return _extends.apply(this, arguments);
+}
 function _inheritsLoose(subClass, superClass) {
   subClass.prototype = Object.create(superClass.prototype);
   subClass.prototype.constructor = subClass;
@@ -39,16 +53,17 @@ var IconAccountStateTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconAccountStateTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconaccountstateoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconAccountStateTwoTone;
@@ -78,16 +93,17 @@ var IconAprobacionTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconAprobacionTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconaprobacion",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconAprobacionTwoTone;
@@ -117,16 +133,17 @@ var IconArchivoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconArchivoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconarchivooutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconArchivoTwoTone;
@@ -156,16 +173,17 @@ var IconArquitectoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconArquitectoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconarquitecto",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconArquitectoTwoTone;
@@ -195,16 +213,17 @@ var IconBetterPriceTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconBetterPriceTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconbetterpriceoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconBetterPriceTwoTone;
@@ -234,16 +253,17 @@ var IconCalendarTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconCalendarTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcalendaroutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconCalendarTwoTone;
@@ -273,16 +293,17 @@ var IconCalendarTimeTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconCalendarTimeTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcalendartimeoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconCalendarTimeTwoTone;
@@ -312,16 +333,17 @@ var IconCheckDeliveryTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconCheckDeliveryTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcheckdeliveryoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconCheckDeliveryTwoTone;
@@ -351,16 +373,17 @@ var IconCheckListTimeTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconCheckListTimeTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconchecklisttimeoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconCheckListTimeTwoTone;
@@ -390,16 +413,17 @@ var IconClockTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconClockTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconclockoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconClockTwoTone;
@@ -429,16 +453,17 @@ var IconConfirmacionTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconConfirmacionTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconconfirmacion",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconConfirmacionTwoTone;
@@ -468,16 +493,17 @@ var IconConfirmacionPagoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconConfirmacionPagoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconconfirmacionpago",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconConfirmacionPagoTwoTone;
@@ -507,16 +533,17 @@ var IconContactFormTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconContactFormTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcontactformoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconContactFormTwoTone;
@@ -546,16 +573,17 @@ var IconDetailTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconDetailTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icondetailoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconDetailTwoTone;
@@ -585,16 +613,17 @@ var IconDocumentoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconDocumentoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icondocumento",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconDocumentoTwoTone;
@@ -624,16 +653,17 @@ var IconEscaleraBynTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconEscaleraBynTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-escalerabyn",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconEscaleraBynTwoTone;
@@ -663,16 +693,17 @@ var IconExitoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconExitoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconexito",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconExitoTwoTone;
@@ -702,16 +733,17 @@ var IconFerrettiTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFerrettiTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconferrettioutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconFerrettiTwoTone;
@@ -741,16 +773,17 @@ var IconFilePdfTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFilePdfTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconfilepdfoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconFilePdfTwoTone;
@@ -780,16 +813,17 @@ var IconFomInTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFomInTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconforminoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconFomInTwoTone;
@@ -819,16 +853,17 @@ var IconFormOutTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFormOutTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconformoutoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconFormOutTwoTone;
@@ -858,16 +893,17 @@ var IconHeartTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconHeartTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconheartoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconHeartTwoTone;
@@ -897,16 +933,17 @@ var IconHomeTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconHomeTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconhomeoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconHomeTwoTone;
@@ -936,16 +973,17 @@ var IconImpuestoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconImpuestoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconimpuesto",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconImpuestoTwoTone;
@@ -975,16 +1013,17 @@ var IconLandColorTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconLandColorTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconlandcoloroutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconLandColorTwoTone;
@@ -1014,16 +1053,17 @@ var IconLiberacionTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconLiberacionTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconliberacion",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconLiberacionTwoTone;
@@ -1053,16 +1093,17 @@ var IconMoonTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconMoonTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmoon",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconMoonTwoTone;
@@ -1092,16 +1133,17 @@ var IconOrdersTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconOrdersTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconordersoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconOrdersTwoTone;
@@ -1131,16 +1173,17 @@ var IconPayCardTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconPayCardTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpaycardoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconPayCardTwoTone;
@@ -1170,16 +1213,17 @@ var IconPayTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconPayTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpayoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconPayTwoTone;
@@ -1209,16 +1253,17 @@ var IconPayPhoneTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconPayPhoneTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpayphoneoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconPayPhoneTwoTone;
@@ -1248,16 +1293,17 @@ var IconPreFormTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconPreFormTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpreformoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconPreFormTwoTone;
@@ -1287,16 +1333,17 @@ var IconRevisionTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconRevisionTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconrevision",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconRevisionTwoTone;
@@ -1326,16 +1373,17 @@ var IconSaveMoneyTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconSaveMoneyTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsavemoneyoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconSaveMoneyTwoTone;
@@ -1365,16 +1413,17 @@ var IconShoppingCarTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconShoppingCarTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconshopping-caroutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconShoppingCarTwoTone;
@@ -1404,16 +1453,17 @@ var IconSiteDeliveryTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconSiteDeliveryTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsitedeliveryoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconSiteDeliveryTwoTone;
@@ -1443,16 +1493,17 @@ var IconSunTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconSunTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsun",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconSunTwoTone;
@@ -1482,16 +1533,17 @@ var IconTiktokTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconTiktokTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icontiktokoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconTiktokTwoTone;
@@ -1521,16 +1573,17 @@ var IconTotalTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconTotalTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icontotaloutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconTotalTwoTone;
@@ -1560,16 +1613,17 @@ var IconUserTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconUserTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconuseroutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconUserTwoTone;
@@ -1599,16 +1653,17 @@ var IconViewTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconViewTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconviewoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconViewTwoTone;
@@ -1638,16 +1693,17 @@ var IconXTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconXTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconxoutlined",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconXTwoTone;
@@ -1677,16 +1733,17 @@ var IconReporteResuTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconReporteResuTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconreporteresu",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconReporteResuTwoTone;
@@ -1716,16 +1773,17 @@ var IconMatrizClientesTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconMatrizClientesTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmatrizclientes",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconMatrizClientesTwoTone;
@@ -1755,16 +1813,17 @@ var IconMantenimientoTipoFactorTwoTone = /*#__PURE__*/function (_React$Component
   }
   var _proto = IconMantenimientoTipoFactorTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmantenimientotipofactor",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconMantenimientoTipoFactorTwoTone;
@@ -1794,16 +1853,17 @@ var IconLicitudFondosClientesTwoTone = /*#__PURE__*/function (_React$Component) 
   }
   var _proto = IconLicitudFondosClientesTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconlicitudfondos",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconLicitudFondosClientesTwoTone;
@@ -1833,16 +1893,17 @@ var IconFactoresTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconFactoresTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconfactores",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconFactoresTwoTone;
@@ -1872,16 +1933,17 @@ var IconReporteUafeTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconReporteUafeTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconreporteuafe",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconReporteUafeTwoTone;
@@ -1911,16 +1973,17 @@ var IconGrupoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconGrupoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icongrupo",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconGrupoTwoTone;
@@ -1950,16 +2013,17 @@ var IconAsesorGrupoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconAsesorGrupoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconasesor-grupo",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconAsesorGrupoTwoTone;
@@ -1989,16 +2053,17 @@ var IconClienteProspectoTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconClienteProspectoTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcliente-prospecto",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconClienteProspectoTwoTone;
@@ -2028,16 +2093,17 @@ var IconMediosTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconMediosTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmedios",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconMediosTwoTone;
@@ -2067,16 +2133,17 @@ var IconInformacionTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconInformacionTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconinformacion",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconInformacionTwoTone;
@@ -2106,16 +2173,17 @@ var IconContabilidadTwoTone = /*#__PURE__*/function (_React$Component) {
   }
   var _proto = IconContabilidadTwoTone.prototype;
   _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-contabilidad",
-      style: {
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
   };
   return IconContabilidadTwoTone;
