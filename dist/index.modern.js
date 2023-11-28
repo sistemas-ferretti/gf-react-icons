@@ -58,7 +58,7 @@ var IconAccountStateTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -98,7 +98,7 @@ var IconAprobacionTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -138,7 +138,7 @@ var IconArchivoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -178,7 +178,7 @@ var IconArquitectoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -218,7 +218,7 @@ var IconBetterPriceTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -258,7 +258,7 @@ var IconCalendarTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -298,7 +298,7 @@ var IconCalendarTimeTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -338,7 +338,7 @@ var IconCheckDeliveryTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -378,7 +378,7 @@ var IconCheckListTimeTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -418,7 +418,7 @@ var IconClockTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -458,7 +458,7 @@ var IconConfirmacionTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -498,7 +498,7 @@ var IconConfirmacionPagoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -538,7 +538,7 @@ var IconContactFormTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -578,7 +578,7 @@ var IconDetailTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -618,7 +618,7 @@ var IconDocumentoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -658,7 +658,7 @@ var IconEscaleraBynTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -698,7 +698,7 @@ var IconExitoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -738,7 +738,7 @@ var IconFerrettiTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -778,7 +778,7 @@ var IconFilePdfTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -818,7 +818,7 @@ var IconFomInTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -858,7 +858,7 @@ var IconFormOutTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -898,7 +898,7 @@ var IconHeartTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -938,7 +938,7 @@ var IconHomeTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -978,7 +978,7 @@ var IconImpuestoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1018,7 +1018,7 @@ var IconLandColorTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1058,7 +1058,7 @@ var IconLiberacionTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1098,7 +1098,7 @@ var IconMoonTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1138,7 +1138,7 @@ var IconOrdersTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1178,7 +1178,7 @@ var IconPayCardTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1218,7 +1218,7 @@ var IconPayTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1258,7 +1258,7 @@ var IconPayPhoneTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1298,7 +1298,7 @@ var IconPreFormTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1338,7 +1338,7 @@ var IconRevisionTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1378,7 +1378,7 @@ var IconSaveMoneyTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1418,7 +1418,7 @@ var IconShoppingCarTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1458,7 +1458,7 @@ var IconSiteDeliveryTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1498,7 +1498,7 @@ var IconSunTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1538,7 +1538,7 @@ var IconTiktokTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1578,7 +1578,7 @@ var IconTotalTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1618,7 +1618,7 @@ var IconUserTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1658,7 +1658,7 @@ var IconViewTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1698,7 +1698,7 @@ var IconXTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1738,7 +1738,7 @@ var IconReporteResuTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1778,7 +1778,7 @@ var IconMatrizClientesTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1818,7 +1818,7 @@ var IconMantenimientoTipoFactorTwoTone = /*#__PURE__*/function (_React$Component
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1858,7 +1858,7 @@ var IconLicitudFondosClientesTwoTone = /*#__PURE__*/function (_React$Component) 
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1898,7 +1898,7 @@ var IconFactoresTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1938,7 +1938,7 @@ var IconReporteUafeTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -1978,7 +1978,7 @@ var IconGrupoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -2018,7 +2018,7 @@ var IconAsesorGrupoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -2058,7 +2058,7 @@ var IconClienteProspectoTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -2098,7 +2098,7 @@ var IconMediosTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -2138,7 +2138,7 @@ var IconInformacionTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -2178,7 +2178,7 @@ var IconContabilidadTwoTone = /*#__PURE__*/function (_React$Component) {
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
-        display: 'inline',
+        display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
       })
@@ -2187,5 +2187,45 @@ var IconContabilidadTwoTone = /*#__PURE__*/function (_React$Component) {
   return IconContabilidadTwoTone;
 }(React.Component);
 
-export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContabilidadOutlined, IconContabilidadTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone };
+var IconClienteOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteOutlined, _React$Component);
+  function IconClienteOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconclientes",
+      style: style
+    });
+  };
+  return IconClienteOutlined;
+}(React.Component);
+
+var IconClienteTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteTwoTone, _React$Component);
+  function IconClienteTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconclientes",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return IconClienteTwoTone;
+}(React.Component);
+
+export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteOutlined, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClienteTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContabilidadOutlined, IconContabilidadTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone };
 //# sourceMappingURL=index.modern.js.map

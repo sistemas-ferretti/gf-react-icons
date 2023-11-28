@@ -1,12 +1,13 @@
 import React from 'react'
 
-export class IconPayCardTwoTone extends React.Component {
+export class IconClienteTwoTone extends React.Component {
   render() {
     const { style } = this.props
+
     return (
       <i
         aria-hidden='true'
-        className='icon-iconpaycardoutlined'
+        className='icon-iconclientes'
         style={{
           ...style,
           background:
