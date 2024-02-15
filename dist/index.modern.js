@@ -1,1918 +1,2351 @@
 import React from 'react';
 
-class IconAccountStateFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+function _extends() {
+  _extends = Object.assign ? Object.assign.bind() : function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+    return target;
+  };
+  return _extends.apply(this, arguments);
+}
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  _setPrototypeOf(subClass, superClass);
+}
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+  return _setPrototypeOf(o, p);
+}
+
+var IconAccountStateFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAccountStateFilled, _React$Component);
+  function IconAccountStateFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAccountStateFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconaccountstateoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconAccountStateFilled;
+}(React.Component);
 
-class IconAccountStateTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconAccountStateTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAccountStateTwoTone, _React$Component);
+  function IconAccountStateTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAccountStateTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconaccountstateoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconAccountStateTwoTone;
+}(React.Component);
 
-class IconAprobacionOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconAprobacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAprobacionOutlined, _React$Component);
+  function IconAprobacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAprobacionOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconaprobacion",
       style: style
     });
-  }
-}
+  };
+  return IconAprobacionOutlined;
+}(React.Component);
 
-class IconAprobacionTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconAprobacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAprobacionTwoTone, _React$Component);
+  function IconAprobacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAprobacionTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconaprobacion",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconAprobacionTwoTone;
+}(React.Component);
 
-class IconArchivoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconArchivoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconArchivoOutlined, _React$Component);
+  function IconArchivoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconArchivoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconarchivooutlined",
       style: style
     });
-  }
-}
+  };
+  return IconArchivoOutlined;
+}(React.Component);
 
-class IconArchivoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconArchivoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconArchivoTwoTone, _React$Component);
+  function IconArchivoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconArchivoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconarchivooutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconArchivoTwoTone;
+}(React.Component);
 
-class IconArquitectoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconArquitectoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconArquitectoOutlined, _React$Component);
+  function IconArquitectoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconArquitectoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconarquitecto",
       style: style
     });
-  }
-}
+  };
+  return IconArquitectoOutlined;
+}(React.Component);
 
-class IconArquitectoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconArquitectoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconArquitectoTwoTone, _React$Component);
+  function IconArquitectoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconArquitectoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconarquitecto",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconArquitectoTwoTone;
+}(React.Component);
 
-class IconBetterPriceOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconBetterPriceOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconBetterPriceOutlined, _React$Component);
+  function IconBetterPriceOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconBetterPriceOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconbetterpriceoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconBetterPriceOutlined;
+}(React.Component);
 
-class IconBetterPriceTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconBetterPriceTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconBetterPriceTwoTone, _React$Component);
+  function IconBetterPriceTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconBetterPriceTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconbetterpriceoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconBetterPriceTwoTone;
+}(React.Component);
 
-class IconCalendarFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconCalendarFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCalendarFilled, _React$Component);
+  function IconCalendarFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCalendarFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcalendaroutlined",
       style: style
     });
-  }
-}
+  };
+  return IconCalendarFilled;
+}(React.Component);
 
-class IconCalendarTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconCalendarTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCalendarTwoTone, _React$Component);
+  function IconCalendarTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCalendarTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcalendaroutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconCalendarTwoTone;
+}(React.Component);
 
-class IconCalendarTimeFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconCalendarTimeFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCalendarTimeFilled, _React$Component);
+  function IconCalendarTimeFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCalendarTimeFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcalendartimeoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconCalendarTimeFilled;
+}(React.Component);
 
-class IconCalendarTimeTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconCalendarTimeTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCalendarTimeTwoTone, _React$Component);
+  function IconCalendarTimeTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCalendarTimeTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcalendartimeoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconCalendarTimeTwoTone;
+}(React.Component);
 
-class IconCheckDeliveryOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconCheckDeliveryOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCheckDeliveryOutlined, _React$Component);
+  function IconCheckDeliveryOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCheckDeliveryOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcheckdeliveryoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconCheckDeliveryOutlined;
+}(React.Component);
 
-class IconCheckDeliveryTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconCheckDeliveryTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCheckDeliveryTwoTone, _React$Component);
+  function IconCheckDeliveryTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCheckDeliveryTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcheckdeliveryoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconCheckDeliveryTwoTone;
+}(React.Component);
 
-class IconCheckListTimeOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconCheckListTimeOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCheckListTimeOutlined, _React$Component);
+  function IconCheckListTimeOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCheckListTimeOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconchecklisttimeoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconCheckListTimeOutlined;
+}(React.Component);
 
-class IconCheckListTimeTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconCheckListTimeTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconCheckListTimeTwoTone, _React$Component);
+  function IconCheckListTimeTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconCheckListTimeTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconchecklisttimeoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconCheckListTimeTwoTone;
+}(React.Component);
 
-class IconClockFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconClockFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClockFilled, _React$Component);
+  function IconClockFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClockFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconclockoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconClockFilled;
+}(React.Component);
 
-class IconClockTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconClockTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClockTwoTone, _React$Component);
+  function IconClockTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClockTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconclockoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconClockTwoTone;
+}(React.Component);
 
-class IconConfirmacionOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconConfirmacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionOutlined, _React$Component);
+  function IconConfirmacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconConfirmacionOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconconfirmacion",
       style: style
     });
-  }
-}
+  };
+  return IconConfirmacionOutlined;
+}(React.Component);
 
-class IconConfirmacionTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconConfirmacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionTwoTone, _React$Component);
+  function IconConfirmacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconConfirmacionTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconconfirmacion",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconConfirmacionTwoTone;
+}(React.Component);
 
-class IconConfirmacionPagoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconConfirmacionPagoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionPagoOutlined, _React$Component);
+  function IconConfirmacionPagoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconConfirmacionPagoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconconfirmacionpago",
       style: style
     });
-  }
-}
+  };
+  return IconConfirmacionPagoOutlined;
+}(React.Component);
 
-class IconConfirmacionPagoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconConfirmacionPagoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconConfirmacionPagoTwoTone, _React$Component);
+  function IconConfirmacionPagoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconConfirmacionPagoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconconfirmacionpago",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconConfirmacionPagoTwoTone;
+}(React.Component);
 
-class IconContactFormOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconContactFormOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContactFormOutlined, _React$Component);
+  function IconContactFormOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContactFormOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcontactformoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconContactFormOutlined;
+}(React.Component);
 
-class IconContactFormTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconContactFormTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContactFormTwoTone, _React$Component);
+  function IconContactFormTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContactFormTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcontactformoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconContactFormTwoTone;
+}(React.Component);
 
-class IconDetailOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconDetailOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconDetailOutlined, _React$Component);
+  function IconDetailOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconDetailOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icondetailoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconDetailOutlined;
+}(React.Component);
 
-class IconDetailTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconDetailTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconDetailTwoTone, _React$Component);
+  function IconDetailTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconDetailTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icondetailoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconDetailTwoTone;
+}(React.Component);
 
-class IconDocumentoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconDocumentoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconDocumentoOutlined, _React$Component);
+  function IconDocumentoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconDocumentoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icondocumento",
       style: style
     });
-  }
-}
+  };
+  return IconDocumentoOutlined;
+}(React.Component);
 
-class IconDocumentoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconDocumentoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconDocumentoTwoTone, _React$Component);
+  function IconDocumentoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconDocumentoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icondocumento",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconDocumentoTwoTone;
+}(React.Component);
 
-class IconEscaleraBynOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconEscaleraBynOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconEscaleraBynOutlined, _React$Component);
+  function IconEscaleraBynOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconEscaleraBynOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconescalerabyn",
       style: style
     });
-  }
-}
+  };
+  return IconEscaleraBynOutlined;
+}(React.Component);
 
-class IconEscaleraBynTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconEscaleraBynTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconEscaleraBynTwoTone, _React$Component);
+  function IconEscaleraBynTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconEscaleraBynTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconescalerabyn",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconEscaleraBynTwoTone;
+}(React.Component);
 
-class IconExitoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconExitoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconExitoOutlined, _React$Component);
+  function IconExitoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconExitoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconexito",
       style: style
     });
-  }
-}
+  };
+  return IconExitoOutlined;
+}(React.Component);
 
-class IconExitoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconExitoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconExitoTwoTone, _React$Component);
+  function IconExitoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconExitoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconexito",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconExitoTwoTone;
+}(React.Component);
 
-class IconFerrettiFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFerrettiFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFerrettiFilled, _React$Component);
+  function IconFerrettiFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFerrettiFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconferrettioutlined",
       style: style
     });
-  }
-}
+  };
+  return IconFerrettiFilled;
+}(React.Component);
 
-class IconFerrettiTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFerrettiTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFerrettiTwoTone, _React$Component);
+  function IconFerrettiTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFerrettiTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconferrettioutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconFerrettiTwoTone;
+}(React.Component);
 
-class IconFilePdfOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFilePdfOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFilePdfOutlined, _React$Component);
+  function IconFilePdfOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFilePdfOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconfilepdfoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconFilePdfOutlined;
+}(React.Component);
 
-class IconFilePdfTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFilePdfTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFilePdfTwoTone, _React$Component);
+  function IconFilePdfTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFilePdfTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconfilepdfoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconFilePdfTwoTone;
+}(React.Component);
 
-class IconFomInOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFomInOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFomInOutlined, _React$Component);
+  function IconFomInOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFomInOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconforminoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconFomInOutlined;
+}(React.Component);
 
-class IconFomInTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFomInTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFomInTwoTone, _React$Component);
+  function IconFomInTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFomInTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconforminoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconFomInTwoTone;
+}(React.Component);
 
-class IconFormOutFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFormOutFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFormOutFilled, _React$Component);
+  function IconFormOutFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFormOutFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconformoutoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconFormOutFilled;
+}(React.Component);
 
-class IconFormOutTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFormOutTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFormOutTwoTone, _React$Component);
+  function IconFormOutTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFormOutTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconformoutoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconFormOutTwoTone;
+}(React.Component);
 
-class IconHeartOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconHeartOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconHeartOutlined, _React$Component);
+  function IconHeartOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconHeartOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconheartoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconHeartOutlined;
+}(React.Component);
 
-class IconHeartTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconHeartTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconHeartTwoTone, _React$Component);
+  function IconHeartTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconHeartTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconheartoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconHeartTwoTone;
+}(React.Component);
 
-class IconHomeOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconHomeOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconHomeOutlined, _React$Component);
+  function IconHomeOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconHomeOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconhomeoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconHomeOutlined;
+}(React.Component);
 
-class IconHomeTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconHomeTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconHomeTwoTone, _React$Component);
+  function IconHomeTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconHomeTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconhomeoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconHomeTwoTone;
+}(React.Component);
 
-class IconImpuestoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconImpuestoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconImpuestoOutlined, _React$Component);
+  function IconImpuestoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconImpuestoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconimpuesto",
       style: style
     });
-  }
-}
+  };
+  return IconImpuestoOutlined;
+}(React.Component);
 
-class IconImpuestoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconImpuestoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconImpuestoTwoTone, _React$Component);
+  function IconImpuestoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconImpuestoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconimpuesto",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconImpuestoTwoTone;
+}(React.Component);
 
-class IconLandColorOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconLandColorOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLandColorOutlined, _React$Component);
+  function IconLandColorOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLandColorOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconlandcoloroutlined",
       style: style
     });
-  }
-}
+  };
+  return IconLandColorOutlined;
+}(React.Component);
 
-class IconLandColorTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconLandColorTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLandColorTwoTone, _React$Component);
+  function IconLandColorTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLandColorTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconlandcoloroutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconLandColorTwoTone;
+}(React.Component);
 
-class IconLiberacionOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconLiberacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLiberacionOutlined, _React$Component);
+  function IconLiberacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLiberacionOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconliberacion",
       style: style
     });
-  }
-}
+  };
+  return IconLiberacionOutlined;
+}(React.Component);
 
-class IconLiberacionTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconLiberacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLiberacionTwoTone, _React$Component);
+  function IconLiberacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLiberacionTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconliberacion",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconLiberacionTwoTone;
+}(React.Component);
 
-class IconMoonOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconMoonOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMoonOutlined, _React$Component);
+  function IconMoonOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMoonOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmoon",
       style: style
     });
-  }
-}
+  };
+  return IconMoonOutlined;
+}(React.Component);
 
-class IconMoonTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconMoonTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMoonTwoTone, _React$Component);
+  function IconMoonTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMoonTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmoon",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconMoonTwoTone;
+}(React.Component);
 
-class IconOrdersOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconOrdersOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconOrdersOutlined, _React$Component);
+  function IconOrdersOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconOrdersOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconordersoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconOrdersOutlined;
+}(React.Component);
 
-class IconOrdersTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconOrdersTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconOrdersTwoTone, _React$Component);
+  function IconOrdersTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconOrdersTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconordersoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconOrdersTwoTone;
+}(React.Component);
 
-class IconPayCardOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconPayCardOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayCardOutlined, _React$Component);
+  function IconPayCardOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPayCardOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpaycardoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconPayCardOutlined;
+}(React.Component);
 
-class IconPayCardTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconPayCardTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayCardTwoTone, _React$Component);
+  function IconPayCardTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPayCardTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpaycardoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconPayCardTwoTone;
+}(React.Component);
 
-class IconPayOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconPayOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayOutlined, _React$Component);
+  function IconPayOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPayOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpayoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconPayOutlined;
+}(React.Component);
 
-class IconPayTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconPayTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayTwoTone, _React$Component);
+  function IconPayTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPayTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpayoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconPayTwoTone;
+}(React.Component);
 
-class IconPayPhoneFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconPayPhoneFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayPhoneFilled, _React$Component);
+  function IconPayPhoneFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPayPhoneFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpayphoneoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconPayPhoneFilled;
+}(React.Component);
 
-class IconPayPhoneTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconPayPhoneTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPayPhoneTwoTone, _React$Component);
+  function IconPayPhoneTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPayPhoneTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpayphoneoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconPayPhoneTwoTone;
+}(React.Component);
 
-class IconPreFormFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconPreFormFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPreFormFilled, _React$Component);
+  function IconPreFormFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPreFormFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpreformoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconPreFormFilled;
+}(React.Component);
 
-class IconPreFormTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconPreFormTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconPreFormTwoTone, _React$Component);
+  function IconPreFormTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconPreFormTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconpreformoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconPreFormTwoTone;
+}(React.Component);
 
-class IconRevisionOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconRevisionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconRevisionOutlined, _React$Component);
+  function IconRevisionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconRevisionOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconrevision",
       style: style
     });
-  }
-}
+  };
+  return IconRevisionOutlined;
+}(React.Component);
 
-class IconRevisionTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconRevisionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconRevisionTwoTone, _React$Component);
+  function IconRevisionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconRevisionTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconrevision",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconRevisionTwoTone;
+}(React.Component);
 
-class IconSaveMoneyOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconSaveMoneyOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSaveMoneyOutlined, _React$Component);
+  function IconSaveMoneyOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSaveMoneyOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsavemoneyoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconSaveMoneyOutlined;
+}(React.Component);
 
-class IconSaveMoneyTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconSaveMoneyTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSaveMoneyTwoTone, _React$Component);
+  function IconSaveMoneyTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSaveMoneyTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsavemoneyoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconSaveMoneyTwoTone;
+}(React.Component);
 
-class IconShoppingCarOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconShoppingCarOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconShoppingCarOutlined, _React$Component);
+  function IconShoppingCarOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconShoppingCarOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconshopping-caroutlined",
       style: style
     });
-  }
-}
+  };
+  return IconShoppingCarOutlined;
+}(React.Component);
 
-class IconShoppingCarTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconShoppingCarTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconShoppingCarTwoTone, _React$Component);
+  function IconShoppingCarTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconShoppingCarTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconshopping-caroutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconShoppingCarTwoTone;
+}(React.Component);
 
-class IconSiteDeliveryOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconSiteDeliveryOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSiteDeliveryOutlined, _React$Component);
+  function IconSiteDeliveryOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSiteDeliveryOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsitedeliveryoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconSiteDeliveryOutlined;
+}(React.Component);
 
-class IconSiteDeliveryTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconSiteDeliveryTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSiteDeliveryTwoTone, _React$Component);
+  function IconSiteDeliveryTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSiteDeliveryTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsitedeliveryoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconSiteDeliveryTwoTone;
+}(React.Component);
 
-class IconSunOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconSunOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSunOutlined, _React$Component);
+  function IconSunOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSunOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsun",
       style: style
     });
-  }
-}
+  };
+  return IconSunOutlined;
+}(React.Component);
 
-class IconSunTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconSunTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSunTwoTone, _React$Component);
+  function IconSunTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSunTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsun",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconSunTwoTone;
+}(React.Component);
 
-class IconTiktokOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconTiktokOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconTiktokOutlined, _React$Component);
+  function IconTiktokOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconTiktokOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icontiktokoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconTiktokOutlined;
+}(React.Component);
 
-class IconTiktokTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconTiktokTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconTiktokTwoTone, _React$Component);
+  function IconTiktokTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconTiktokTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icontiktokoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconTiktokTwoTone;
+}(React.Component);
 
-class IconTotalOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconTotalOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconTotalOutlined, _React$Component);
+  function IconTotalOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconTotalOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icontotaloutlined",
       style: style
     });
-  }
-}
+  };
+  return IconTotalOutlined;
+}(React.Component);
 
-class IconTotalTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconTotalTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconTotalTwoTone, _React$Component);
+  function IconTotalTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconTotalTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icontotaloutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconTotalTwoTone;
+}(React.Component);
 
-class IconUserOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconUserOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconUserOutlined, _React$Component);
+  function IconUserOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconUserOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconuseroutlined",
       style: style
     });
-  }
-}
+  };
+  return IconUserOutlined;
+}(React.Component);
 
-class IconUserTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconUserTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconUserTwoTone, _React$Component);
+  function IconUserTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconUserTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconuseroutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconUserTwoTone;
+}(React.Component);
 
-class IconViewFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconViewFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconViewFilled, _React$Component);
+  function IconViewFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconViewFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconviewoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconViewFilled;
+}(React.Component);
 
-class IconViewTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconViewTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconViewTwoTone, _React$Component);
+  function IconViewTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconViewTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconviewoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconViewTwoTone;
+}(React.Component);
 
-class IconXOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconXOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconXOutlined, _React$Component);
+  function IconXOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconXOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconxoutlined",
       style: style
     });
-  }
-}
+  };
+  return IconXOutlined;
+}(React.Component);
 
-class IconXTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconXTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconXTwoTone, _React$Component);
+  function IconXTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconXTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconxoutlined",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconXTwoTone;
+}(React.Component);
 
-class IconReporteResuOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconReporteResuOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteResuOutlined, _React$Component);
+  function IconReporteResuOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconReporteResuOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconreporteresu",
       style: style
     });
-  }
-}
+  };
+  return IconReporteResuOutlined;
+}(React.Component);
 
-class IconReporteResuTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconReporteResuTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteResuTwoTone, _React$Component);
+  function IconReporteResuTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconReporteResuTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconreporteresu",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconReporteResuTwoTone;
+}(React.Component);
 
-class IconMatrizClientesOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconMatrizClientesOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMatrizClientesOutlined, _React$Component);
+  function IconMatrizClientesOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMatrizClientesOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmatrizclientes",
       style: style
     });
-  }
-}
+  };
+  return IconMatrizClientesOutlined;
+}(React.Component);
 
-class IconMatrizClientesTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconMatrizClientesTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMatrizClientesTwoTone, _React$Component);
+  function IconMatrizClientesTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMatrizClientesTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmatrizclientes",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconMatrizClientesTwoTone;
+}(React.Component);
 
-class IconMantenimientoTipoFactorOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconMantenimientoTipoFactorOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMantenimientoTipoFactorOutlined, _React$Component);
+  function IconMantenimientoTipoFactorOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMantenimientoTipoFactorOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmantenimientotipofactor",
       style: style
     });
-  }
-}
+  };
+  return IconMantenimientoTipoFactorOutlined;
+}(React.Component);
 
-class IconMantenimientoTipoFactorTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconMantenimientoTipoFactorTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMantenimientoTipoFactorTwoTone, _React$Component);
+  function IconMantenimientoTipoFactorTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMantenimientoTipoFactorTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmantenimientotipofactor",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconMantenimientoTipoFactorTwoTone;
+}(React.Component);
 
-class IconLicitudFondosClientesOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconLicitudFondosClientesOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLicitudFondosClientesOutlined, _React$Component);
+  function IconLicitudFondosClientesOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLicitudFondosClientesOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconlicitudfondos",
       style: style
     });
-  }
-}
+  };
+  return IconLicitudFondosClientesOutlined;
+}(React.Component);
 
-class IconLicitudFondosClientesTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconLicitudFondosClientesTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconLicitudFondosClientesTwoTone, _React$Component);
+  function IconLicitudFondosClientesTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconLicitudFondosClientesTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconlicitudfondos",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconLicitudFondosClientesTwoTone;
+}(React.Component);
 
-class IconFactoresOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFactoresOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFactoresOutlined, _React$Component);
+  function IconFactoresOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFactoresOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconfactores",
       style: style
     });
-  }
-}
+  };
+  return IconFactoresOutlined;
+}(React.Component);
 
-class IconFactoresTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconFactoresTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconFactoresTwoTone, _React$Component);
+  function IconFactoresTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconFactoresTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconfactores",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconFactoresTwoTone;
+}(React.Component);
 
-class IconReporteUafeOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconReporteUafeOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteUafeOutlined, _React$Component);
+  function IconReporteUafeOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconReporteUafeOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconreporteuafe",
       style: style
     });
-  }
-}
+  };
+  return IconReporteUafeOutlined;
+}(React.Component);
 
-class IconReporteUafeTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconReporteUafeTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconReporteUafeTwoTone, _React$Component);
+  function IconReporteUafeTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconReporteUafeTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconreporteuafe",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconReporteUafeTwoTone;
+}(React.Component);
 
-class IconGrupoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconGrupoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconGrupoOutlined, _React$Component);
+  function IconGrupoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconGrupoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icongrupo",
       style: style
     });
-  }
-}
+  };
+  return IconGrupoOutlined;
+}(React.Component);
 
-class IconGrupoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconGrupoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconGrupoTwoTone, _React$Component);
+  function IconGrupoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconGrupoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-icongrupo",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconGrupoTwoTone;
+}(React.Component);
 
-class IconAsesorGrupoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconAsesorGrupoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsesorGrupoOutlined, _React$Component);
+  function IconAsesorGrupoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsesorGrupoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconasesor-grupo",
       style: style
     });
-  }
-}
+  };
+  return IconAsesorGrupoOutlined;
+}(React.Component);
 
-class IconAsesorGrupoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconAsesorGrupoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsesorGrupoTwoTone, _React$Component);
+  function IconAsesorGrupoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsesorGrupoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconasesor-grupo",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconAsesorGrupoTwoTone;
+}(React.Component);
 
-class IconClienteProspectoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconClienteProspectoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteProspectoOutlined, _React$Component);
+  function IconClienteProspectoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteProspectoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcliente-prospecto",
       style: style
     });
-  }
-}
+  };
+  return IconClienteProspectoOutlined;
+}(React.Component);
 
-class IconClienteProspectoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconClienteProspectoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteProspectoTwoTone, _React$Component);
+  function IconClienteProspectoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteProspectoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcliente-prospecto",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconClienteProspectoTwoTone;
+}(React.Component);
 
-class IconMediosOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconMediosOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMediosOutlined, _React$Component);
+  function IconMediosOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMediosOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmedios",
       style: style
     });
-  }
-}
+  };
+  return IconMediosOutlined;
+}(React.Component);
 
-class IconMediosTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconMediosTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconMediosTwoTone, _React$Component);
+  function IconMediosTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconMediosTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconmedios",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconMediosTwoTone;
+}(React.Component);
 
-class IconInformacionOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconInformacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconInformacionOutlined, _React$Component);
+  function IconInformacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconInformacionOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconinformacion",
       style: style
     });
-  }
-}
+  };
+  return IconInformacionOutlined;
+}(React.Component);
 
-class IconInformacionTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconInformacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconInformacionTwoTone, _React$Component);
+  function IconInformacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconInformacionTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconinformacion",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconInformacionTwoTone;
+}(React.Component);
 
-class IconContabilidadOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconContabilidadOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContabilidadOutlined, _React$Component);
+  function IconContabilidadOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContabilidadOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcontabilidad",
       style: style
     });
-  }
-}
+  };
+  return IconContabilidadOutlined;
+}(React.Component);
 
-class IconContabilidadTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconContabilidadTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconContabilidadTwoTone, _React$Component);
+  function IconContabilidadTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconContabilidadTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconcontabilidad",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconContabilidadTwoTone;
+}(React.Component);
 
-class IconClienteOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconClienteOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteOutlined, _React$Component);
+  function IconClienteOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconclientes",
       style: style
     });
-  }
-}
+  };
+  return IconClienteOutlined;
+}(React.Component);
 
-class IconClienteTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconClienteTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconClienteTwoTone, _React$Component);
+  function IconClienteTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconClienteTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconclientes",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconClienteTwoTone;
+}(React.Component);
 
-class IconAsignarFilled extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconAsignarFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsignarFilled, _React$Component);
+  function IconAsignarFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsignarFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconasignar",
       style: style
     });
-  }
-}
+  };
+  return IconAsignarFilled;
+}(React.Component);
 
-class IconAsignarTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconAsignarTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsignarTwoTone, _React$Component);
+  function IconAsignarTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsignarTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconasignar",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconAsignarTwoTone;
+}(React.Component);
 
-class IconRefinanciacionOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconRefinanciacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconRefinanciacionOutlined, _React$Component);
+  function IconRefinanciacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconRefinanciacionOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconrefinanciacion",
       style: style
     });
-  }
-}
+  };
+  return IconRefinanciacionOutlined;
+}(React.Component);
 
-class IconrefinanciacionTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconrefinanciacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconrefinanciacionTwoTone, _React$Component);
+  function IconrefinanciacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconrefinanciacionTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconrefinanciacion",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconrefinanciacionTwoTone;
+}(React.Component);
 
-class IconSemaforoOutlined extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconSemaforoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSemaforoOutlined, _React$Component);
+  function IconSemaforoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSemaforoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsemaforo",
       style: style
     });
-  }
-}
+  };
+  return IconSemaforoOutlined;
+}(React.Component);
 
-class IconSemaforoTwoTone extends React.Component {
-  render() {
-    const {
-      style
-    } = this.props;
+var IconSemaforoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSemaforoTwoTone, _React$Component);
+  function IconSemaforoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSemaforoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
       className: "icon-iconsemaforo",
-      style: {
-        ...style,
+      style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
         display: 'inline-block',
         WebkitTextFillColor: 'transparent',
         WebkitBackgroundClip: 'text'
-      }
+      })
     });
-  }
-}
+  };
+  return IconSemaforoTwoTone;
+}(React.Component);
 
 export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconAsignarFilled, IconAsignarTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteOutlined, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClienteTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContabilidadOutlined, IconContabilidadTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconRefinanciacionOutlined, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconSemaforoOutlined, IconSemaforoTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone, IconrefinanciacionTwoTone };
 //# sourceMappingURL=index.modern.js.map
