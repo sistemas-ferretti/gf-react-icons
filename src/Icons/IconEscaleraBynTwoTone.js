@@ -6,7 +6,7 @@ export class IconEscaleraBynTwoTone extends React.Component {
     return (
       <i
         aria-hidden='true'
-        className='icon-escalerabyn'
+        className='icon-iconescalerabyn'
         style={{
           ...style,
           background:

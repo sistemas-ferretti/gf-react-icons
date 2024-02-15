@@ -637,7 +637,7 @@ var IconEscaleraBynOutlined = /*#__PURE__*/function (_React$Component) {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-escalerabyn",
+      className: "icon-iconescalerabyn",
       style: style
     });
   };
@@ -654,7 +654,7 @@ var IconEscaleraBynTwoTone = /*#__PURE__*/function (_React$Component) {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-escalerabyn",
+      className: "icon-iconescalerabyn",
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
@@ -2157,7 +2157,7 @@ var IconContabilidadOutlined = /*#__PURE__*/function (_React$Component) {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-contabilidad",
+      className: "icon-iconcontabilidad",
       style: style
     });
   };
@@ -2174,7 +2174,7 @@ var IconContabilidadTwoTone = /*#__PURE__*/function (_React$Component) {
     var style = this.props.style;
     return /*#__PURE__*/React.createElement("i", {
       "aria-hidden": "true",
-      className: "icon-contabilidad",
+      className: "icon-iconcontabilidad",
       style: _extends({}, style, {
         background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
         backgroundClip: 'border-box',
@@ -2227,5 +2227,125 @@ var IconClienteTwoTone = /*#__PURE__*/function (_React$Component) {
   return IconClienteTwoTone;
 }(React.Component);
 
-export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteOutlined, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClienteTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContabilidadOutlined, IconContabilidadTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone };
+var IconAsignarFilled = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsignarFilled, _React$Component);
+  function IconAsignarFilled() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsignarFilled.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconasignar",
+      style: style
+    });
+  };
+  return IconAsignarFilled;
+}(React.Component);
+
+var IconAsignarTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconAsignarTwoTone, _React$Component);
+  function IconAsignarTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconAsignarTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconasignar",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return IconAsignarTwoTone;
+}(React.Component);
+
+var IconRefinanciacionOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconRefinanciacionOutlined, _React$Component);
+  function IconRefinanciacionOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconRefinanciacionOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconrefinanciacion",
+      style: style
+    });
+  };
+  return IconRefinanciacionOutlined;
+}(React.Component);
+
+var IconrefinanciacionTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconrefinanciacionTwoTone, _React$Component);
+  function IconrefinanciacionTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconrefinanciacionTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconrefinanciacion",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return IconrefinanciacionTwoTone;
+}(React.Component);
+
+var IconSemaforoOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSemaforoOutlined, _React$Component);
+  function IconSemaforoOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSemaforoOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconsemaforo",
+      style: style
+    });
+  };
+  return IconSemaforoOutlined;
+}(React.Component);
+
+var IconSemaforoTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IconSemaforoTwoTone, _React$Component);
+  function IconSemaforoTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IconSemaforoTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-iconsemaforo",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return IconSemaforoTwoTone;
+}(React.Component);
+
+export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconAsignarFilled, IconAsignarTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteOutlined, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClienteTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContabilidadOutlined, IconContabilidadTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconRefinanciacionOutlined, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconSemaforoOutlined, IconSemaforoTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone, IconrefinanciacionTwoTone };
 //# sourceMappingURL=index.modern.js.map
