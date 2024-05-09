@@ -2347,5 +2347,205 @@ var IconSemaforoTwoTone = /*#__PURE__*/function (_React$Component) {
   return IconSemaforoTwoTone;
 }(React.Component);
 
-export { IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconAsignarFilled, IconAsignarTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteOutlined, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClienteTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContabilidadOutlined, IconContabilidadTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconRefinanciacionOutlined, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconSemaforoOutlined, IconSemaforoTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone, IconrefinanciacionTwoTone };
+var CarryOutOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(CarryOutOutlined, _React$Component);
+  function CarryOutOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = CarryOutOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-carryout",
+      style: style
+    });
+  };
+  return CarryOutOutlined;
+}(React.Component);
+
+var CarryOutTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(CarryOutTwoTone, _React$Component);
+  function CarryOutTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = CarryOutTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-carryout",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return CarryOutTwoTone;
+}(React.Component);
+
+var ScheduleOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(ScheduleOutlined, _React$Component);
+  function ScheduleOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = ScheduleOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-schedule",
+      style: style
+    });
+  };
+  return ScheduleOutlined;
+}(React.Component);
+
+var ScheduleTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(ScheduleTwoTone, _React$Component);
+  function ScheduleTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = ScheduleTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-schedule",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return ScheduleTwoTone;
+}(React.Component);
+
+var FileDoneOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(FileDoneOutlined, _React$Component);
+  function FileDoneOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = FileDoneOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-filedone",
+      style: style
+    });
+  };
+  return FileDoneOutlined;
+}(React.Component);
+
+var FileDoneTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(FileDoneTwoTone, _React$Component);
+  function FileDoneTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = FileDoneTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-filedone",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return FileDoneTwoTone;
+}(React.Component);
+
+var BankOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(BankOutlined, _React$Component);
+  function BankOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = BankOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-bank",
+      style: style
+    });
+  };
+  return BankOutlined;
+}(React.Component);
+
+var BankTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(BankTwoTone, _React$Component);
+  function BankTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = BankTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-bank",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return BankTwoTone;
+}(React.Component);
+
+var IssuesCloseOutlined = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IssuesCloseOutlined, _React$Component);
+  function IssuesCloseOutlined() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IssuesCloseOutlined.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-issuesclose",
+      style: style
+    });
+  };
+  return IssuesCloseOutlined;
+}(React.Component);
+
+var IssuesCloseTwoTone = /*#__PURE__*/function (_React$Component) {
+  _inheritsLoose(IssuesCloseTwoTone, _React$Component);
+  function IssuesCloseTwoTone() {
+    return _React$Component.apply(this, arguments) || this;
+  }
+  var _proto = IssuesCloseTwoTone.prototype;
+  _proto.render = function render() {
+    var style = this.props.style;
+    return /*#__PURE__*/React.createElement("i", {
+      "aria-hidden": "true",
+      className: "icon-issuesclose",
+      style: _extends({}, style, {
+        background: 'linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(87, 154, 237) 13%, rgb(151, 70, 252) 100%)',
+        backgroundClip: 'border-box',
+        display: 'inline-block',
+        WebkitTextFillColor: 'transparent',
+        WebkitBackgroundClip: 'text'
+      })
+    });
+  };
+  return IssuesCloseTwoTone;
+}(React.Component);
+
+export { BankOutlined, BankTwoTone, CarryOutOutlined, CarryOutTwoTone, FileDoneOutlined, FileDoneTwoTone, IconAccountStateFilled, IconAccountStateTwoTone, IconAprobacionOutlined, IconAprobacionTwoTone, IconArchivoOutlined, IconArchivoTwoTone, IconArquitectoOutlined, IconArquitectoTwoTone, IconAsesorGrupoOutlined, IconAsesorGrupoTwoTone, IconAsignarFilled, IconAsignarTwoTone, IconBetterPriceOutlined, IconBetterPriceTwoTone, IconCalendarFilled, IconCalendarTimeFilled, IconCalendarTimeTwoTone, IconCalendarTwoTone, IconCheckDeliveryOutlined, IconCheckDeliveryTwoTone, IconCheckListTimeOutlined, IconCheckListTimeTwoTone, IconClienteOutlined, IconClienteProspectoOutlined, IconClienteProspectoTwoTone, IconClienteTwoTone, IconClockFilled, IconClockTwoTone, IconConfirmacionOutlined, IconConfirmacionPagoOutlined, IconConfirmacionPagoTwoTone, IconConfirmacionTwoTone, IconContabilidadOutlined, IconContabilidadTwoTone, IconContactFormOutlined, IconContactFormTwoTone, IconDetailOutlined, IconDetailTwoTone, IconDocumentoOutlined, IconDocumentoTwoTone, IconEscaleraBynOutlined, IconEscaleraBynTwoTone, IconExitoOutlined, IconExitoTwoTone, IconFactoresOutlined, IconFactoresTwoTone, IconFerrettiFilled, IconFerrettiTwoTone, IconFilePdfOutlined, IconFilePdfTwoTone, IconFomInOutlined, IconFomInTwoTone, IconFormOutFilled, IconFormOutTwoTone, IconGrupoOutlined, IconGrupoTwoTone, IconHeartOutlined, IconHeartTwoTone, IconHomeOutlined, IconHomeTwoTone, IconImpuestoOutlined, IconImpuestoTwoTone, IconInformacionOutlined, IconInformacionTwoTone, IconLandColorOutlined, IconLandColorTwoTone, IconLiberacionOutlined, IconLiberacionTwoTone, IconLicitudFondosClientesOutlined, IconLicitudFondosClientesTwoTone, IconMantenimientoTipoFactorOutlined, IconMantenimientoTipoFactorTwoTone, IconMatrizClientesOutlined, IconMatrizClientesTwoTone, IconMediosOutlined, IconMediosTwoTone, IconMoonOutlined, IconMoonTwoTone, IconOrdersOutlined, IconOrdersTwoTone, IconPayCardOutlined, IconPayCardTwoTone, IconPayOutlined, IconPayPhoneFilled, IconPayPhoneTwoTone, IconPayTwoTone, IconPreFormFilled, IconPreFormTwoTone, IconRefinanciacionOutlined, IconReporteResuOutlined, IconReporteResuTwoTone, IconReporteUafeOutlined, IconReporteUafeTwoTone, IconRevisionOutlined, IconRevisionTwoTone, IconSaveMoneyOutlined, IconSaveMoneyTwoTone, IconSemaforoOutlined, IconSemaforoTwoTone, IconShoppingCarOutlined, IconShoppingCarTwoTone, IconSiteDeliveryOutlined, IconSiteDeliveryTwoTone, IconSunOutlined, IconSunTwoTone, IconTiktokOutlined, IconTiktokTwoTone, IconTotalOutlined, IconTotalTwoTone, IconUserOutlined, IconUserTwoTone, IconViewFilled, IconViewTwoTone, IconXOutlined, IconXTwoTone, IconrefinanciacionTwoTone, IssuesCloseOutlined, IssuesCloseTwoTone, ScheduleOutlined, ScheduleTwoTone };
 //# sourceMappingURL=index.modern.js.map
